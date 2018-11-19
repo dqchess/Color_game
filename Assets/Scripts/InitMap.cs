@@ -66,6 +66,8 @@ public class InitMap : MonoBehaviour {
     public void Init(){
         original_map.SetActive(false);
         editable_map.SetActive(true);
+        LevelManager levelmgr = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        GameObject.Find("CountryName").GetComponent<Text>().text = levelmgr.GetCountryForLevel(levelmgr.GetCurrentLevel());
         SetColorButtons();
 
         Initial_Texture = new Texture2D((int)editable_map.GetComponent<Image>().sprite.rect.width, (int)editable_map.GetComponent<Image>().sprite.rect.height,

@@ -11,6 +11,10 @@ public class LevelManager : MonoBehaviour {
     public int max_level;
     public GameObject original_gb;
 	// Use this for initialization
+    public int GetCurrentLevel()
+    {
+        return current_level;
+    }
 	void Start () {
         current_level = starting_level;
         Load_level(current_level);
@@ -47,7 +51,7 @@ public class LevelManager : MonoBehaviour {
     }
 
 
-    string GetCountryForLevel(int level){
+    public string  GetCountryForLevel(int level){
         switch(level){
            case 1: return "algeria";
            case 2: return "austria";
@@ -97,7 +101,7 @@ public class LevelManager : MonoBehaviour {
             case 46: return "nigera";
             case 47: return "nigeria";
             case 48: return "pakistan";
-            case 49: return "palau";
+            case 49: return "yemen";
             case 50: return "peru";
             case 51: return "poland";
             case 52: return "qatar";
@@ -110,7 +114,7 @@ public class LevelManager : MonoBehaviour {
             case 59: return "thailand";
             case 60: return "turkey";
             case 61: return "ukrain";
-            case 62: return "yemen";
+            case 62: return "palau";
 
 
         }

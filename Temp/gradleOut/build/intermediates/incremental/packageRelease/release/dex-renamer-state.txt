@@ -1,4 +1,0 @@
-#Mon Nov 19 19:43:52 IST 2018
-base.0=/Users/sheerinaseem/sources/Color_game/Temp/gradleOut/build/intermediates/transforms/dex/release/0
-path.0=classes.dex
-renamed.0=classes.dex
