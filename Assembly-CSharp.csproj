@@ -69,6 +69,7 @@
     <Compile Include="Assets\Scripts\FloodFillSprite.cs" />
     <Compile Include="Assets\Scripts\InitMap.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\LoadLevel.cs" />
     <Compile Include="Assets\Scripts\TextureExtension.cs" />
     <None Include="Assets\ExampleFolder\Readme.txt" />
     <Reference Include="UnityEditor.StandardEvents">
