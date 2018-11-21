@@ -284,7 +284,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 5.5
+  - time: 5.25
     functionName: LoadMyLevel
     data: Menu
     objectReferenceParameter: {fileID: 0}

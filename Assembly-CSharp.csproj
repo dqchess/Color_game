@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\ExampleFolder\BitmapDrawing.cs" />
     <Compile Include="Assets\ExampleFolder\Example.cs" />
+    <Compile Include="Assets\PlayHints.cs" />
     <Compile Include="Assets\Scripts\ColorFrugal.cs" />
     <Compile Include="Assets\Scripts\ColorSprite.cs" />
     <Compile Include="Assets\Scripts\ColorStatus.cs" />

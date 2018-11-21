@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{3D08C481-6449-98A4-F1B5-11E5B4B55FEB}|">
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ColorStatus.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/PlayHints.cs">
     <Files>
       <File FileName="Assets/Scripts/FloodFillSprite.cs" Line="42" Column="1" />
-      <File FileName="Assets/Scripts/InitMap.cs" Line="103" Column="10" />
+      <File FileName="Assets/Scripts/InitMap.cs" Line="36" Column="21" />
       <File FileName="Assets/Scripts/TextureExtension.cs" Line="138" Column="38" />
       <File FileName="Assets/Scripts/ColorStatus.cs" Line="15" Column="1" />
       <File FileName="Assets/Scripts/LevelManager.cs" Line="113" Column="37" />
       <File FileName="Assets/Scripts/LoadLevel.cs" Line="16" Column="1" />
+      <File FileName="Assets/PlayHints.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
