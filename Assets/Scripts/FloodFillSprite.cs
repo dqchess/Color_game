@@ -12,6 +12,8 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
     private Vector3 offset;
     public GameObject editable_map;
     public Texture2D tex;
+    public AudioSource audio1;
+    public AudioSource audio2;
 
     // Use this for initialization
     void Start() {
@@ -34,6 +36,7 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
         int py = Mathf.Clamp(0, (int)(((localPoint.y - r.y) * tex.height) / r.height), tex.height);
         Color32 col = tex.GetPixel(px, py);
         Color32 color32 = tex.GetPixel(px, py);
+        audio2.Play();
         //Debug.Log("(LocalPoint X/Y:" + localPoint.x + ", " + localPoint.y + ")  ");
         //Debug.Log("(Rect X/Y:" + r.x + ", " + r.y + ")  ");
         //Debug.Log("(Rect W/H:" + r.width + ", " + r.height + ")  ");
@@ -48,7 +51,7 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
         if (gameObject.GetComponent<InitMap>().AreImagesMatching(tex))
         {
             var sprite = Resources.Load<Sprite>("done");
-            GetComponent<AudioSource>().Play();
+            audio1.Play();
             editable_map.GetComponent<Image>().sprite = sprite;
             Debug.Log("Yohooooo");
         }
