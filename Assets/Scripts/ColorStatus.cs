@@ -26,6 +26,7 @@ public class ColorStatus : MonoBehaviour {
         if (GetComponent<SpriteRenderer>() != null)
         {
             GetComponent<SpriteRenderer>().color = ColorSprite.current_color;
+            GetComponent<AudioSource>().Play();
 
         }
 
@@ -38,6 +39,7 @@ public class ColorStatus : MonoBehaviour {
         ColorStatus.current_color = color;
         GameObject selected_color = GameObject.Find("selected_color");
         selected_color.GetComponent<Image>().color = ColorStatus.current_color;
+        GetComponent<AudioSource>().Play();
         print(button.name);
         Debug.Log("Object clicked " + ColorSprite.current_color);
     }

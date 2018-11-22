@@ -12,12 +12,15 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
     private Vector3 offset;
     public GameObject editable_map;
     public Texture2D tex;
+
     // Use this for initialization
     void Start() {
         //Sprite sprite = gameObject.GetComponent<SpriteRenderer>().sprite;
         //Texture2D texture = TextureExtension.textureFromSprite(sprite);
         //texture.FloodFillArea(80, 80, Color.red);
         //texture.Apply();
+
+
     }
    
     //Detect current clicks on the GameObject (the one with the script attached)
@@ -45,6 +48,7 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
         if (gameObject.GetComponent<InitMap>().AreImagesMatching(tex))
         {
             var sprite = Resources.Load<Sprite>("done");
+            GetComponent<AudioSource>().Play();
             editable_map.GetComponent<Image>().sprite = sprite;
             Debug.Log("Yohooooo");
         }
