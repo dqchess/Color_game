@@ -37,6 +37,11 @@ public class LevelManager : MonoBehaviour {
 
     }
 
+    public void ResetFlag(){
+        Load_level(current_level);
+        GameObject.Find("Color_Object").GetComponent<InitMap>().Init();
+    }
+
     public void Load_next_level(){
 
         GameObject.Find("Color_Object").GetComponent <InitMap>().Reset();
@@ -53,72 +58,72 @@ public class LevelManager : MonoBehaviour {
 
     public string  GetCountryForLevel(int level){
         switch(level){
-           case 1: return "algeria";
-           case 2: return "austria";
-            case 3: return "armenia";
-            case 4: return "azerbaijan";
-            case 5: return "bahamas";
-            case 6: return "bahrain";
-            case 7: return "bangladesh";
-            case 8: return "belgium";
-            case 9: return "benin";
-            case 10: return "bolivia";
-            case 11: return "botswana";
-            case 12: return "bulgaria_flag";
-            case 13: return "burkina_faso";
-            case 14: return "cameroon";
-            case 15: return "chad";
-            case 16: return "chile";
-            case 17: return "colombia";
-            case 18: return "congo_republic";
-            case 19: return "costa_rica";
-            case 20: return "cote_d_ivoire";
-            case 21: return "czech_republic";
-            case 22: return "denmark";
-            case 23: return "estonia";
-            case 24: return "finland";
-            case 25: return "france";
-            case 26: return "gabon";
-            case 27: return "gambia";
-            case 28: return "georgia";
-            case 29: return "germany";
-            case 30: return "ghana";
-            case 31: return "guinea";
-            case 32: return "guinea_bissau";
-            case 33: return "hungary";
-            case 34: return "iceland";
-            case 35: return "indonesia";
-            case 36: return "ireland";
-            case 37: return "italya";
-            case 38: return "japan";
-            case 39: return "lithuania";
-            case 40: return "luxembourg";
-            case 41: return "madagascar";
-            case 42: return "mali";
-            case 43: return "mauritius";
-            case 44: return "monaco";
-            case 45: return "netherlands";
-            case 46: return "nigera";
-            case 47: return "nigeria";
-            case 48: return "pakistan";
-            case 49: return "yemen";
-            case 50: return "peru";
-            case 51: return "poland";
-            case 52: return "qatar";
-            case 53: return "romania";
-            case 54: return "russia";
-            case 55: return "sierra_leone";
-            case 56: return "somalia";
-            case 57: return "sudan";
-            case 58: return "sweden";
-            case 59: return "thailand";
-            case 60: return "turkey";
-            case 61: return "ukrain";
-            case 62: return "palau";
+           case 1: return "Algeria";
+           case 2: return "Austria";
+            case 3: return "Armenia";
+            case 4: return "Azerbaijan";
+            case 5: return "Bahamas";
+            case 6: return "Bahrain";
+            case 7: return "Bangladesh";
+            case 8: return "Belgium";
+            case 9: return "Benin";
+            case 10: return "Bolivia";
+            case 11: return "Botswana";
+            case 12: return "Bulgaria";
+            case 13: return "Burkina_faso";
+            case 14: return "Cameroon";
+            case 15: return "Chad";
+            case 16: return "Chile";
+            case 17: return "Colombia";
+            case 18: return "Congo_Republic";
+            case 19: return "Costa_Rica";
+            case 20: return "Cote_d_Ivoire";
+            case 21: return "Czech_Republic";
+            case 22: return "Denmark";
+            case 23: return "Estonia";
+            case 24: return "Finland";
+            case 25: return "France";
+            case 26: return "Gabon";
+            case 27: return "Gambia";
+            case 28: return "Georgia";
+            case 29: return "Germany";
+            case 30: return "Ghana";
+            case 31: return "Guinea";
+            case 32: return "Guinea_Bissau";
+            case 33: return "Hungary";
+            case 34: return "Iceland";
+            case 35: return "Indonesia";
+            case 36: return "Ireland";
+            case 37: return "Italya";
+            case 38: return "Japan";
+            case 39: return "Lithuania";
+            case 40: return "Luxembourg";
+            case 41: return "Madagascar";
+            case 42: return "Mali";
+            case 43: return "Mauritius";
+            case 44: return "Monaco";
+            case 45: return "Netherlands";
+            case 46: return "Nigera";
+            case 47: return "Nigeria";
+            case 48: return "Pakistan";
+            case 49: return "Yemen";
+            case 50: return "Peru";
+            case 51: return "Poland";
+            case 52: return "Qatar";
+            case 53: return "Romania";
+            case 54: return "Russia";
+            case 55: return "Sierra_Leone";
+            case 56: return "Somalia";
+            case 57: return "Sudan";
+            case 58: return "Sweden";
+            case 59: return "Thailand";
+            case 60: return "Turkey";
+            case 61: return "Ukrain";
+            case 62: return "Palau";
 
 
         }
-        return "algeria";
+        return "Algeria";
     }
 
 
