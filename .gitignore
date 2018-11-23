@@ -50,3 +50,4 @@ Assets/UETools/
 Assets/UETools*
 Assets/Resonai/
 Assets/Resonai*
+*.obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache

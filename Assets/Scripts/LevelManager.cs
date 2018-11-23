@@ -2,29 +2,37 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using System.Threading;
 
-public class LevelManager : MonoBehaviour {
+public class LevelManager : MonoBehaviour
+{
 
 
     public int starting_level;
     private int current_level;
     public int max_level;
     public GameObject original_gb;
-	// Use this for initialization
+
+    public float timerSpeed = 20; //Seconds Overall
+    public Text countdown; //UI Text Object
+
     public int GetCurrentLevel()
     {
         return current_level;
     }
-	void Start () {
+    void Start()
+    {
         current_level = starting_level;
         Load_level(current_level);
-	}
 
-    void Load_level(int level){
+    }
+
+    void Load_level(int level)
+    {
 
         //Replace sprites
         //original image
-        string original = "Flags/"+GetCountryForLevel(current_level) +"/"+ GetCountryForLevel(current_level) + "_original";
+        string original = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_original";
         Sprite original_flag = Resources.Load<Sprite>(original);
         original_gb.GetComponent<Image>().sprite = original_flag;
 
@@ -37,29 +45,36 @@ public class LevelManager : MonoBehaviour {
 
     }
 
-    public void ResetFlag(){
+    public void ResetFlag()
+    {
         Load_level(current_level);
         GameObject.Find("Color_Object").GetComponent<InitMap>().Init();
     }
 
-    public void Load_next_level(){
+    public void Load_next_level()
+    {
 
-        GameObject.Find("Color_Object").GetComponent <InitMap>().Reset();
+        GameObject.Find("Color_Object").GetComponent<InitMap>().Reset();
         current_level++;
 
-        if (current_level > max_level){
+        if (current_level > max_level)
+        {
             current_level = 1;
         }
 
         Load_level(current_level);
         GameObject.Find("Color_Object").GetComponent<InitMap>().Init();
+        timerSpeed = 20;
     }
 
 
-    public string  GetCountryForLevel(int level){
-        switch(level){
-           case 1: return "Algeria";
-           case 2: return "Austria";
+
+    public string GetCountryForLevel(int level)
+    {
+        switch (level)
+        {
+            case 1: return "Algeria";
+            case 2: return "Austria";
             case 3: return "Armenia";
             case 4: return "Azerbaijan";
             case 5: return "Bahamas";
@@ -129,7 +144,20 @@ public class LevelManager : MonoBehaviour {
 
 
     // Update is called once per frame
-    void Update () {
-		
-	}
+    void Update()
+    {
+        timerSpeed -= Time.deltaTime;
+
+        if (countdown != null)// beginer mode
+        {
+            countdown.text = (timerSpeed).ToString("f0"); //Showing the Score on the Canvas
+            if (timerSpeed <= 0)
+            {
+                Debug.Log("Hit 0");
+                Load_next_level();
+
+            }
+        }
+    }
+
 }

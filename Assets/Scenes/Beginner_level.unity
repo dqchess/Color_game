@@ -809,7 +809,6 @@ GameObject:
   - component: {fileID: 414909996}
   - component: {fileID: 414909997}
   - component: {fileID: 414909998}
-  - component: {fileID: 414909999}
   - component: {fileID: 414910000}
   m_Layer: 0
   m_Name: LevelManager
@@ -845,6 +844,8 @@ MonoBehaviour:
   starting_level: 1
   max_level: 61
   original_gb: {fileID: 1662392175}
+  timerSpeed: 20
+  countdown: {fileID: 0}
 --- !u!114 &414909997
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -867,18 +868,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 750215c8ce32e4b899d030ae320e0a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &414909999
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 414909994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2cd110faf18f34fdc8583c160e62ebb1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  anim: {fileID: 0}
 --- !u!82 &414910000
 AudioSource:
   m_ObjectHideFlags: 0
