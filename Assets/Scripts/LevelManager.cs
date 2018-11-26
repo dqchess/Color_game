@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading;
+using UnityEngine.Advertisements;
 
 public class LevelManager : MonoBehaviour
 {
@@ -15,8 +16,17 @@ public class LevelManager : MonoBehaviour
     public GameObject original_gb;
     public GameObject[] hints;
 
-    public float timerSpeed = 20; //Seconds Overall
+    public int timerSpeed = 20; //Seconds Overall
+    private int current_time;
     public Text countdown; //UI Text Object
+
+    public delegate void HandleUnityAdResult(ShowResult result);
+    public HandleUnityAdResult adResultHandle;
+    // keep a copy of the executing script
+    private IEnumerator timer_coroutine;
+
+
+    public GameObject adpopup;
 
     public int GetCurrentLevel()
     {
@@ -24,12 +34,22 @@ public class LevelManager : MonoBehaviour
     }
     void Start()
     {
+        timer_coroutine = Timer();
+
         current_level = starting_level;
         Load_level(current_level);
 
         if(mode == "BEGINNER")
             DisplayHint();
 
+        if (mode == "CHALLENGE")
+        {
+            
+            current_time = timerSpeed;
+            Debug.Log("Starting Timer");
+
+            StartCoroutine(timer_coroutine);
+        }
     }
     public void MoveToNextObject(GameObject to)//For disabling the first and enabling the next obj
     {
@@ -67,17 +87,29 @@ public class LevelManager : MonoBehaviour
 
         //Replace sprites
         //original image
-        string original = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_original";
+        //string original = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_original";
+        string original = "Flags/" + "Resized/"+ GetCountryForLevel(current_level) + "_original";
         Sprite original_flag = Resources.Load<Sprite>(original);
         original_gb.GetComponent<Image>().sprite = original_flag;
 
-        string bw = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_bw";
+        //string bw = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_bw";
+    string bw = "Flags/Resized/" + GetCountryForLevel(current_level) + "_bw";
+
         Sprite bw_flag = Resources.Load<Sprite>(bw);
         GameObject.Find("EditableMap").GetComponent<Image>().sprite = bw_flag;
         GameObject.Find("Color_Object").GetComponent<InitMap>().Initiate();
+        current_time = timerSpeed;
 
+        if(mode == "BEGINNER")
+            LoadAdForBeginner();
+    }
 
-
+    void LoadAdForBeginner()
+    {
+        if(current_level % 5 == 0)
+        {
+            ShowRewardedAd();
+        }
     }
 
     public void ResetFlag()
@@ -99,7 +131,7 @@ public class LevelManager : MonoBehaviour
 
         Load_level(current_level);
         GameObject.Find("Color_Object").GetComponent<InitMap>().Init();
-        timerSpeed = 20;
+   
     }
 
 
@@ -108,7 +140,7 @@ public class LevelManager : MonoBehaviour
     {
         switch (level)
         {
-            case 1: return "Algeria";
+            case 1: return "algeria";
             case 2: return "Austria";
             case 3: return "Armenia";
             case 4: return "Azerbaijan";
@@ -119,7 +151,7 @@ public class LevelManager : MonoBehaviour
             case 9: return "Benin";
             case 10: return "Bolivia";
             case 11: return "Botswana";
-            case 12: return "Bulgaria";
+            case 12: return "Ukrain";
             case 13: return "Burkina_faso";
             case 14: return "Cameroon";
             case 15: return "Chad";
@@ -168,7 +200,7 @@ public class LevelManager : MonoBehaviour
             case 58: return "Sweden";
             case 59: return "Thailand";
             case 60: return "Turkey";
-            case 61: return "Ukrain";
+            case 61: return "Bulgaria";
             case 62: return "Palau";
 
 
@@ -181,18 +213,76 @@ public class LevelManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timerSpeed -= Time.deltaTime;
+        
 
-        if (mode == "CHALLENGE")// beginer mode
-        {
-            countdown.text = (timerSpeed).ToString("f0"); //Showing the Score on the Canvas
-            if (timerSpeed <= 0)
-            {
-                Debug.Log("Hit 0");
-                Load_next_level();
-
-            }
-        }
     }
 
+    public void RequestVideoForReward()
+    {
+        Debug.Log("Rewarded Video");
+
+        ShowRewardedAd();
+    }
+    public void ShowRewardedAd()
+    {
+        if (Advertisement.IsReady("rewardedVideo"))
+        {
+            if(mode == "CHALLENGE")
+                adpopup.SetActive(false);
+
+            var options = new ShowOptions { resultCallback = HandleShowResult };
+            Advertisement.Show("rewardedVideo", options);
+
+            return;
+        }
+        if (mode == "CHALLENGE")
+            adpopup.SetActive(false);
+        Load_next_level();
+    }
+
+    public void HandleShowResult(ShowResult result)
+    {
+        switch (result)
+        {
+            case ShowResult.Finished:
+                Debug.Log("The ad was successfully shown.");
+                //
+                // YOUR CODE TO REWARD THE GAMER
+                // Give coins etc.
+                if (mode == "CHALLENGE")
+                    ResetFlag();
+                else
+                    Load_next_level();
+                break;
+            case ShowResult.Skipped:
+                Debug.Log("The ad was skipped before reaching the end.");
+                Load_next_level();
+                break;
+            case ShowResult.Failed:
+                Debug.LogError("The ad failed to be shown.");
+                Load_next_level();
+                break;
+        }
+    }
+    public IEnumerator  Timer()
+    {
+        Debug.Log("Timer Entered");
+        while (true)
+        {
+            if(current_time >= 0)
+            {
+                countdown.text = (current_time).ToString("f0"); //Showing the Score on the Canvas
+                current_time--;
+                
+                
+            }
+            if (current_time == 0)
+                adpopup.SetActive(true);
+            yield return new WaitForSeconds(1f);
+        }
+        
+      
+
+
+    }
 }

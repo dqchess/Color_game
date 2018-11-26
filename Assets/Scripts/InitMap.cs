@@ -99,7 +99,7 @@ public class InitMap : MonoBehaviour {
         while (current_time < 3 )
         {
             current_time++;
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.2f);
         }
         original_map.SetActive(false);
         editable_map.SetActive(true);
