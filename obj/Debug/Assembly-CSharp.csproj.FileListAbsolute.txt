@@ -1,2 +1,0 @@
-/Users/sheerinaseem/sources/Color_game/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
-/Users/sheerinaseem/sources/Color_game/obj/Debug/Assembly-CSharp.csproj.CoreCompileInputs.cache
