@@ -534,7 +534,7 @@ MonoBehaviour:
   mode: CHALLENGE
   original_gb: {fileID: 1662392175}
   hints: []
-  timerSpeed: 20
+  timerSpeed: 7
   countdown: {fileID: 1216431632}
   adpopup: {fileID: 1481513514}
 --- !u!114 &414909997

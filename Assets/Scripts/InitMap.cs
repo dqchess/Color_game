@@ -92,7 +92,7 @@ public class InitMap : MonoBehaviour {
         
     }
 
-    IEnumerator FlashHint()
+    public IEnumerator FlashHint()
     {
         //AreImagesMatching();
         int current_time = 0;

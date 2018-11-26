@@ -34,6 +34,7 @@ public class LevelManager : MonoBehaviour
     }
     void Start()
     {
+
         timer_coroutine = Timer();
 
         current_level = starting_level;
@@ -85,6 +86,8 @@ public class LevelManager : MonoBehaviour
     void Load_level(int level)
     {
 
+
+
         //Replace sprites
         //original image
         //string original = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_original";
@@ -102,6 +105,9 @@ public class LevelManager : MonoBehaviour
 
         if(mode == "BEGINNER")
             LoadAdForBeginner();
+
+        InitMap init = GameObject.Find("Color_Object").GetComponent<InitMap>();
+        init.ShowHideHint();
     }
 
     void LoadAdForBeginner()
@@ -116,6 +122,8 @@ public class LevelManager : MonoBehaviour
     {
         Load_level(current_level);
         GameObject.Find("Color_Object").GetComponent<InitMap>().Init();
+        InitMap init = GameObject.Find("Color_Object").GetComponent<InitMap>();
+        init.ShowHideHint();
     }
 
     public void Load_next_level()
@@ -131,7 +139,8 @@ public class LevelManager : MonoBehaviour
 
         Load_level(current_level);
         GameObject.Find("Color_Object").GetComponent<InitMap>().Init();
-   
+        InitMap init = GameObject.Find("Color_Object").GetComponent<InitMap>();
+        init.ShowHideHint();
     }
 
 
