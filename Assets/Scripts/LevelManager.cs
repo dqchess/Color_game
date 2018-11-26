@@ -10,16 +10,46 @@ public class LevelManager : MonoBehaviour {
     private int current_level;
     public int max_level;
     public GameObject original_gb;
-	// Use this for initialization
+    // Use this for initialization
+    private Sprite[] flags_original;
+    private Sprite[] flags_editable;
+
+
+    public void LoadFlags()
+    {
+
+        flags_original = new Sprite[max_level];
+        flags_editable = new Sprite[max_level];
+
+        for (int i = 0; i < max_level; ++i)
+        {
+            string original = "Flags/" + GetCountryForLevel(i) + "/" + GetCountryForLevel(i) + "_original";
+            flags_original[i] = Resources.Load<Sprite>(original);
+
+            string bw = "Flags/" + GetCountryForLevel(i) + "/" + GetCountryForLevel(i) + "_bw";
+            flags_editable[i] = Resources.Load<Sprite>(bw);
+
+        }
+    }
     public int GetCurrentLevel()
     {
         return current_level;
     }
 	void Start () {
+        LoadFlags();
         current_level = starting_level;
-        Load_level(current_level);
+        Load_level_From_Memory(current_level);
 	}
+    void Load_level_From_Memory(int level)
+    {
 
+        original_gb.GetComponent<Image>().sprite = flags_original[level];
+        GameObject.Find("EditableMap").GetComponent<Image>().sprite = flags_editable[level];
+        GameObject.Find("Color_Object").GetComponent<InitMap>().Initiate();
+
+
+
+    }
     void Load_level(int level){
 
         //Replace sprites
@@ -51,7 +81,8 @@ public class LevelManager : MonoBehaviour {
             current_level = 1;
         }
 
-        Load_level(current_level);
+        //Load_level(current_level);
+        Load_level_From_Memory(current_level);
         GameObject.Find("Color_Object").GetComponent<InitMap>().Init();
     }
 

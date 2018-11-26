@@ -14,6 +14,7 @@ public class InitMap : MonoBehaviour {
     public Sprite Initial_State;
     private Texture2D Initial_Texture;
 
+    
     // Use this for initialization
     public void Initiate () {
         Init();
