@@ -345,7 +345,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starting_level: 1
   max_level: 61
+  mode: CHALLENGE
   original_gb: {fileID: 1662392175}
+  hints: []
   timerSpeed: 20
   countdown: {fileID: 1216431632}
 --- !u!114 &414909997

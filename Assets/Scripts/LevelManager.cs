@@ -11,7 +11,9 @@ public class LevelManager : MonoBehaviour
     public int starting_level;
     private int current_level;
     public int max_level;
+    public string mode; // BEGINNER OR CHALLENGE
     public GameObject original_gb;
+    public GameObject[] hints;
 
     public float timerSpeed = 20; //Seconds Overall
     public Text countdown; //UI Text Object
@@ -25,6 +27,39 @@ public class LevelManager : MonoBehaviour
         current_level = starting_level;
         Load_level(current_level);
 
+        if(mode == "BEGINNER")
+            DisplayHint();
+
+    }
+    public void MoveToNextObject(GameObject to)//For disabling the first and enabling the next obj
+    {
+        gameObject.SetActive(false);
+        if (to.name != "LastHint")
+        {
+            to.SetActive(true);
+        }
+    }
+    void DisplayHint()
+    {
+        for (int i = 0; i < hints.Length; ++i)
+        {
+            hints[hints.Length - 1 - i].SetActive(false);
+
+        }
+        Debug.Log(PlayerPrefs.GetInt("PlayedTimes"));
+
+        //use another variable for example "DisplayHint" (true/false) in case user clicks
+        // on help tool
+        if (PlayerPrefs.GetInt("PlayedTimes") == 0)
+        {
+            hints[0].SetActive(true);
+            PlayerPrefs.SetInt("PlayedTimes", 1);
+        }
+        else
+        {
+            int played_times = PlayerPrefs.GetInt("PlayedTimes");
+            PlayerPrefs.SetInt("PlayedTimes", played_times + 1);
+        }
     }
 
     void Load_level(int level)
@@ -148,7 +183,7 @@ public class LevelManager : MonoBehaviour
     {
         timerSpeed -= Time.deltaTime;
 
-        if (countdown != null)// beginer mode
+        if (mode == "CHALLENGE")// beginer mode
         {
             countdown.text = (timerSpeed).ToString("f0"); //Showing the Score on the Canvas
             if (timerSpeed <= 0)
