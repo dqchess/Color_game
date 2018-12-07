@@ -20,6 +20,8 @@ public class LevelManager : MonoBehaviour
     private int current_time;
     public Text countdown; //UI Text Object
 
+    public Transform button;
+
     public delegate void HandleUnityAdResult(ShowResult result);
     public HandleUnityAdResult adResultHandle;
     // keep a copy of the executing script
@@ -108,6 +110,9 @@ public class LevelManager : MonoBehaviour
 
         InitMap init = GameObject.Find("Color_Object").GetComponent<InitMap>();
         init.ShowHideHint();
+
+        Button next_btn = GameObject.Find("Next_button").GetComponent<Button>();
+        next_btn.interactable = false;
     }
 
     void LoadAdForBeginner()
@@ -143,13 +148,25 @@ public class LevelManager : MonoBehaviour
         init.ShowHideHint();
     }
 
+    void Button_active(){
+        GameObject myEditable_map = GameObject.Find("EditableMap");
+        Texture2D editable_Texture = TextureExtension.textureFromSprite(myEditable_map.GetComponent<Image>().sprite);
+        if (myEditable_map == true){
+            button.GetComponent<Button>().interactable = true;
+        }
+        else{
+            button.GetComponent<Button>().interactable = true;
+        }
+
+
+    }
 
 
     public string GetCountryForLevel(int level)
     {
         switch (level)
         {
-            case 1: return "algeria";
+            case 1: return "Algeria";
             case 2: return "Austria";
             case 3: return "Armenia";
             case 4: return "Azerbaijan";

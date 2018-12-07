@@ -50,10 +50,13 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
         tex.Apply();
         if (gameObject.GetComponent<InitMap>().AreImagesMatching(tex))
         {
-            var sprite = Resources.Load<Sprite>("done");
-            audio1.Play();
-            editable_map.GetComponent<Image>().sprite = sprite;
-            Debug.Log("Yohooooo");
+            editable_map.SetActive(true);
+            //var sprite = Resources.Load<Sprite>("done");
+            //audio1.Play();
+            //editable_map.GetComponent<Image>().sprite = sprite;
+            //Debug.Log("Yohooooo");
+            Button next_btn = GameObject.Find("Next_button").GetComponent<Button>();
+            next_btn.interactable = true;
         }
         //editable_map.GetComponent<Image>().sprite = tex;
     }

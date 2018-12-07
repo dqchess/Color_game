@@ -889,6 +889,7 @@ MonoBehaviour:
   - {fileID: 1847816928}
   timerSpeed: 20
   countdown: {fileID: 0}
+  button: {fileID: 0}
   adpopup: {fileID: 0}
 --- !u!114 &414909997
 MonoBehaviour:
