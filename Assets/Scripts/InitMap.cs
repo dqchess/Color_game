@@ -49,6 +49,11 @@ public class InitMap : MonoBehaviour {
             Debug.Log(colors_comparable[i]);
             colorbtn.transform.SetParent(parent.transform);
         }
+
+
+        ColorStatus.current_color = colors_comparable[0];
+        GameObject selected_color = GameObject.Find("selected_color");
+        selected_color.GetComponent<Image>().color = colors_comparable[0];
     }
 	// Update is called once per frame
 	void Update () {

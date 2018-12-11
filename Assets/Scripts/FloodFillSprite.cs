@@ -57,6 +57,9 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
             //Debug.Log("Yohooooo");
             Button next_btn = GameObject.Find("Next_button").GetComponent<Button>();
             next_btn.interactable = true;
+
+            LevelManager levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+            levelManager.boTimerActive = false; //Disabling Timer TODO - Better to create a delegate here 
         }
         //editable_map.GetComponent<Image>().sprite = tex;
     }

@@ -17,6 +17,7 @@ public class LevelManager : MonoBehaviour
     public GameObject[] hints;
 
     public int timerSpeed = 20; //Seconds Overall
+    public bool boTimerActive = true;
     private int current_time;
     public Text countdown; //UI Text Object
 
@@ -36,7 +37,7 @@ public class LevelManager : MonoBehaviour
     }
     void Start()
     {
-
+        boTimerActive = true;
         timer_coroutine = Timer();
 
         current_level = starting_level;
@@ -113,6 +114,9 @@ public class LevelManager : MonoBehaviour
 
         Button next_btn = GameObject.Find("Next_button").GetComponent<Button>();
         next_btn.interactable = false;
+
+        Debug.Log("HoHo");
+        boTimerActive = true;
     }
 
     void LoadAdForBeginner()
@@ -295,15 +299,19 @@ public class LevelManager : MonoBehaviour
         Debug.Log("Timer Entered");
         while (true)
         {
-            if(current_time >= 0)
+            if (boTimerActive)
             {
-                countdown.text = (current_time).ToString("f0"); //Showing the Score on the Canvas
-                current_time--;
-                
+                if (current_time >= 0)
+                {
+                    countdown.text = (current_time).ToString("f0"); //Showing the Score on the Canvas
+                    current_time--;
+
+
+                }
+                if (current_time == 0)
+                    adpopup.SetActive(true);
                 
             }
-            if (current_time == 0)
-                adpopup.SetActive(true);
             yield return new WaitForSeconds(1f);
         }
         
