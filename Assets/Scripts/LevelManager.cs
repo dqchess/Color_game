@@ -74,16 +74,13 @@ public class LevelManager : MonoBehaviour
 
         //use another variable for example "DisplayHint" (true/false) in case user clicks
         // on help tool
-        if (PlayerPrefs.GetInt("PlayedTimes") == 0)
+        if (PlayerPrefs.GetInt("PlayedTimes") < 4)
         {
             hints[0].SetActive(true);
-            PlayerPrefs.SetInt("PlayedTimes", 1);
+            
         }
-        else
-        {
             int played_times = PlayerPrefs.GetInt("PlayedTimes");
             PlayerPrefs.SetInt("PlayedTimes", played_times + 1);
-        }
     }
 
     void Load_level(int level)
@@ -117,6 +114,11 @@ public class LevelManager : MonoBehaviour
 
         Debug.Log("HoHo");
         boTimerActive = true;
+
+        //Hide Particle System
+        GameObject particles = GameObject.Find("Particles");
+        if(particles)
+            particles.SetActive(false);
     }
 
     void LoadAdForBeginner()
