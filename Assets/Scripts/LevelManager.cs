@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Threading;
 using UnityEngine.Advertisements;
+using EasyMobile;
 
 public class LevelManager : MonoBehaviour
 {
@@ -12,7 +13,7 @@ public class LevelManager : MonoBehaviour
     public int starting_level;
     private int current_level;
     public int max_level;
-    public string mode; // BEGINNER OR CHALLENGE
+    public string mode; // BEGINNER , CHALLENGE OR EXPERT
     public GameObject original_gb;
     public GameObject[] hints;
 
@@ -35,18 +36,33 @@ public class LevelManager : MonoBehaviour
     {
         return current_level;
     }
+
+    private int GetLevelToLoad()
+    {
+        int level = 0;
+        if (mode == "BEGINNER")
+            level = PlayerPrefs.GetInt("LastBeginnerLevelCracked");
+        if (mode == "CHALLENGE")
+            level = PlayerPrefs.GetInt("LastChallengeLevelCracked");
+        if (mode == "EXPERT")
+            level = PlayerPrefs.GetInt("LastExpertLevelCracked");
+        return level;
+        
+    }
     void Start()
     {
         boTimerActive = true;
         timer_coroutine = Timer();
 
-        current_level = starting_level;
+        //current_level = starting_level;
+        current_level = GetLevelToLoad();
+
         Load_level(current_level);
 
         if(mode == "BEGINNER")
             DisplayHint();
 
-        if (mode == "CHALLENGE")
+        if ((mode == "CHALLENGE") || (mode == "EXPERT"))
         {
             
             current_time = timerSpeed;
@@ -85,7 +101,20 @@ public class LevelManager : MonoBehaviour
 
     void Load_level(int level)
     {
-
+        if (mode == "BEGINNER")
+        {
+            PlayerPrefs.SetInt("LastBeginnerLevelCracked", level);
+            GameServices.ReportScore(level, EM_GameServicesConstants.Leaderboard_Top_Users);
+            if(level == 10)
+            {
+                GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_Cracked_10_Flags);
+                GameServices.ShowAchievementsUI();
+            }
+        }
+        if (mode == "CHALLENGE")
+            PlayerPrefs.SetInt("LastChallengeLevelCracked", level);
+        if (mode == "EXPERT")
+            PlayerPrefs.SetInt("LastExpertLevelCracked", level);
 
 
         //Replace sprites
@@ -259,7 +288,7 @@ public class LevelManager : MonoBehaviour
     {
         if (Advertisement.IsReady("rewardedVideo"))
         {
-            if(mode == "CHALLENGE")
+            if((mode == "CHALLENGE") || (mode == "EXPERT"))
                 adpopup.SetActive(false);
 
             var options = new ShowOptions { resultCallback = HandleShowResult };
@@ -267,7 +296,7 @@ public class LevelManager : MonoBehaviour
 
             return;
         }
-        if (mode == "CHALLENGE")
+        if ((mode == "CHALLENGE") || (mode == "EXPERT"))
             adpopup.SetActive(false);
         Load_next_level();
     }
@@ -281,7 +310,7 @@ public class LevelManager : MonoBehaviour
                 //
                 // YOUR CODE TO REWARD THE GAMER
                 // Give coins etc.
-                if (mode == "CHALLENGE")
+                if ((mode == "CHALLENGE") || (mode == "EXPERT"))
                     ResetFlag();
                 else
                     Load_next_level();

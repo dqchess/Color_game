@@ -8,6 +8,7 @@ namespace EasyMobile
 {
 	public static class EM_GameServicesConstants
 	{
+		public const string Achievement_Cracked_10_Flags = "Cracked 10 Flags";
 		public const string Leaderboard_Top_Users = "Top Users";
 
 	}

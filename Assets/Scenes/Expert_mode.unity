@@ -5252,7 +5252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starting_level: 1
   max_level: 61
-  mode: CHALLENGE
+  mode: EXPERT
   original_gb: {fileID: 1662392175}
   hints: []
   timerSpeed: 7
