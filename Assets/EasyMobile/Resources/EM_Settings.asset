@@ -20,13 +20,13 @@ MonoBehaviour:
       interstitialAdNetwork: 0
       rewardedAdNetwork: 0
     mAndroidDefaultAdNetworks:
-      bannerAdNetwork: 0
-      interstitialAdNetwork: 0
-      rewardedAdNetwork: 0
+      bannerAdNetwork: 2
+      interstitialAdNetwork: 9
+      rewardedAdNetwork: 9
     mAdColony:
       mAppId:
         mIosId: 
-        mAndroidId: 
+        mAndroidId: app9fd37c6d31f34fc0ac
       mOrientation: 2
       mEnableRewardedAdPrePopup: 0
       mEnableRewardedAdPostPopup: 0
@@ -52,10 +52,10 @@ MonoBehaviour:
       mTestDeviceIds: []
       mAppId:
         mIosId: 
-        mAndroidId: 
+        mAndroidId: ca-app-pub-8068446944778379~1342604744
       mDefaultBannerAdId:
         mIosId: 
-        mAndroidId: 
+        mAndroidId: ca-app-pub-8068446944778379/6375439577
       mDefaultInterstitialAdId:
         mIosId: 
         mAndroidId: 
@@ -259,9 +259,9 @@ MonoBehaviour:
     mDelayAfterInstallation: 10
     mCoolingOffPeriod: 10
     mIgnoreContraintsInDevelopment: 0
-  mIsAdModuleEnable: 0
+  mIsAdModuleEnable: 1
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 1
   mIsNotificationModuleEnable: 0
-  mActiveModuleIndex: 2
+  mActiveModuleIndex: 0
   mIsSelectingModule: 0

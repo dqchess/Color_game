@@ -8,7 +8,19 @@ public class EasyProManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         InitGameServices(); //
-	}
+
+        // Grants the module-level consent for the Advertising module.
+        Advertising.GrantDataPrivacyConsent();
+
+        // Grants the vendor-level consent for AdMob.
+        Advertising.GrantDataPrivacyConsent(AdNetwork.AdMob);
+
+        // Grants the vendor-level consent for AdMob.
+        Advertising.GrantDataPrivacyConsent(AdNetwork.UnityAds);
+
+        // Grants the vendor-level consent for AdMob.
+        Advertising.GrantDataPrivacyConsent(AdNetwork.AdColony);
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -56,4 +68,6 @@ public class EasyProManager : MonoBehaviour {
     {
         GameServices.ShowLeaderboardUI(EM_GameServicesConstants.Leaderboard_Top_Users);
     }
+
+
 }

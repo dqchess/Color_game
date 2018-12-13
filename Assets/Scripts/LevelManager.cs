@@ -47,10 +47,49 @@ public class LevelManager : MonoBehaviour
         if (mode == "EXPERT")
             level = PlayerPrefs.GetInt("LastExpertLevelCracked");
         return level;
+
+    }
+
+    // Subscribe to the event
+    void OnEnable()
+    {
+        Advertising.InterstitialAdCompleted += InterstitialAdCompletedHandler;
+        Advertising.RewardedAdCompleted += RewardedAdCompletedHandler;
+        Advertising.RewardedAdSkipped += RewardedAdSkippedHandler;
+    }
+    // The event handler
+    void InterstitialAdCompletedHandler(InterstitialAdNetwork network, AdLocation location)
+    {
+        Debug.Log("Interstitial ad has been closed.");
         
     }
+    // Unsubscribe
+    void OnDisable()
+    {
+        Advertising.InterstitialAdCompleted -= InterstitialAdCompletedHandler;
+        Advertising.RewardedAdCompleted -= RewardedAdCompletedHandler;
+        Advertising.RewardedAdSkipped -= RewardedAdSkippedHandler;
+    }
+
+    // Event handler called when a rewarded ad has completed
+    void RewardedAdCompletedHandler(RewardedAdNetwork network, AdLocation location)
+    {
+        Debug.Log("Rewarded ad has completed. The user should be rewarded now.");
+        ResetFlag(); // For Challenge and Expert Mode
+    }
+    // Event handler called when a rewarded ad has been skipped
+    void RewardedAdSkippedHandler(RewardedAdNetwork network, AdLocation location)
+    {
+        Debug.Log("Rewarded ad was skipped. The user should NOT be rewarded.");
+    }
+
     void Start()
     {
+
+        // Show banner ad
+        Advertising.ShowBannerAd(BannerAdPosition.Bottom);
+
+
         boTimerActive = true;
         timer_coroutine = Timer();
 
@@ -59,12 +98,12 @@ public class LevelManager : MonoBehaviour
 
         Load_level(current_level);
 
-        if(mode == "BEGINNER")
+        if (mode == "BEGINNER")
             DisplayHint();
 
         if ((mode == "CHALLENGE") || (mode == "EXPERT"))
         {
-            
+
             current_time = timerSpeed;
             Debug.Log("Starting Timer");
 
@@ -93,10 +132,10 @@ public class LevelManager : MonoBehaviour
         if (PlayerPrefs.GetInt("PlayedTimes") < 4)
         {
             hints[0].SetActive(true);
-            
+
         }
-            int played_times = PlayerPrefs.GetInt("PlayedTimes");
-            PlayerPrefs.SetInt("PlayedTimes", played_times + 1);
+        int played_times = PlayerPrefs.GetInt("PlayedTimes");
+        PlayerPrefs.SetInt("PlayedTimes", played_times + 1);
     }
 
     void Load_level(int level)
@@ -105,7 +144,7 @@ public class LevelManager : MonoBehaviour
         {
             PlayerPrefs.SetInt("LastBeginnerLevelCracked", level);
             GameServices.ReportScore(level, EM_GameServicesConstants.Leaderboard_Top_Users);
-            if(level == 10)
+            if (level == 10)
             {
                 GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_Cracked_10_Flags);
                 GameServices.ShowAchievementsUI();
@@ -120,19 +159,19 @@ public class LevelManager : MonoBehaviour
         //Replace sprites
         //original image
         //string original = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_original";
-        string original = "Flags/" + "Resized/"+ GetCountryForLevel(current_level) + "_original";
+        string original = "Flags/" + "Resized/" + GetCountryForLevel(current_level) + "_original";
         Sprite original_flag = Resources.Load<Sprite>(original);
         original_gb.GetComponent<Image>().sprite = original_flag;
 
         //string bw = "Flags/" + GetCountryForLevel(current_level) + "/" + GetCountryForLevel(current_level) + "_bw";
-    string bw = "Flags/Resized/" + GetCountryForLevel(current_level) + "_bw";
+        string bw = "Flags/Resized/" + GetCountryForLevel(current_level) + "_bw";
 
         Sprite bw_flag = Resources.Load<Sprite>(bw);
         GameObject.Find("EditableMap").GetComponent<Image>().sprite = bw_flag;
         GameObject.Find("Color_Object").GetComponent<InitMap>().Initiate();
         current_time = timerSpeed;
 
-        if(mode == "BEGINNER")
+        if ((current_level % 5 == 0) && (mode == "BEGINNER"))
             LoadAdForBeginner();
 
         InitMap init = GameObject.Find("Color_Object").GetComponent<InitMap>();
@@ -152,11 +191,20 @@ public class LevelManager : MonoBehaviour
 
     void LoadAdForBeginner()
     {
-        if(current_level % 5 == 0)
-        {
-            ShowRewardedAd();
-        }
+
+        //// Check if interstitial ad is ready
+        //bool isReady = Advertising.IsInterstitialAdReady();
+        //// Show it if it's ready
+        //if (isReady)
+        //{
+        //    Advertising.ShowInterstitialAd();
+        //}
+
+        InterStitialAdsUnity();
     }
+
+
+
 
     public void ResetFlag()
     {
@@ -278,27 +326,44 @@ public class LevelManager : MonoBehaviour
 
     }
 
-    public void RequestVideoForReward()
-    {
-        Debug.Log("Rewarded Video");
 
-        ShowRewardedAd();
-    }
     public void ShowRewardedAd()
     {
-        if (Advertisement.IsReady("rewardedVideo"))
+        // Check if rewarded ad is ready
+        //bool isReady = Advertising.IsRewardedAdReady();
+        bool isReady = Advertisement.IsReady("rewardedVideo");
+        Debug.Log("Rewarded Ad is " + isReady);
+        if (isReady)
         {
             if((mode == "CHALLENGE") || (mode == "EXPERT"))
                 adpopup.SetActive(false);
 
+            //Advertising.ShowRewardedAd();
             var options = new ShowOptions { resultCallback = HandleShowResult };
             Advertisement.Show("rewardedVideo", options);
 
+            adpopup.SetActive(false); // For Beginner mode
             return;
         }
-        if ((mode == "CHALLENGE") || (mode == "EXPERT"))
-            adpopup.SetActive(false);
-        Load_next_level();
+    }
+
+
+
+
+    public void InterStitialAdsUnity()
+    {
+        // Check if rewarded ad is ready
+        //bool isReady = Advertising.IsRewardedAdReady();
+        bool isReady = Advertisement.IsReady("rewardedVideo");
+        Debug.Log("Rewarded Ad is " + isReady);
+        if (isReady)
+        {
+            
+            Advertisement.Show("rewardedVideo");
+
+            
+            return;
+        }
     }
 
     public void HandleShowResult(ShowResult result)
