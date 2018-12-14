@@ -249,7 +249,7 @@ public class LevelManager : MonoBehaviour
     {
         switch (level)
         {
-            case 1: return "Algeria";
+            case 1: return "Botswana";
             case 2: return "Austria";
             case 3: return "Armenia";
             case 4: return "Azerbaijan";
@@ -258,8 +258,8 @@ public class LevelManager : MonoBehaviour
             case 7: return "Bangladesh";
             case 8: return "Belgium";
             case 9: return "Benin";
-            case 10: return "Bolivia";
-            case 11: return "Botswana";
+            case 10: return "Algeria";
+            case 11: return "Bolivia";
             case 12: return "Ukrain";
             case 13: return "Burkina_faso";
             case 14: return "Cameroon";
