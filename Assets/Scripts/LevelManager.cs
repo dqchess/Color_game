@@ -32,6 +32,7 @@ public class LevelManager : MonoBehaviour
 
     public GameObject adpopup;
 
+
     public int GetCurrentLevel()
     {
         return current_level;
