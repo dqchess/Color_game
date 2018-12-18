@@ -833,9 +833,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starting_level: 1
-  max_level: 61
+  max_level: 62
   mode: CHALLENGE
   original_gb: {fileID: 1662392175}
+  dyk_flag_img: {fileID: 2000683494}
+  dyk_country_name: {fileID: 114897946}
+  dyk_country_description: {fileID: 1478781914}
   hints: []
   timerSpeed: 20
   boTimerActive: 1

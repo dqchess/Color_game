@@ -1070,9 +1070,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starting_level: 1
-  max_level: 61
+  max_level: 62
   mode: BEGINNER
   original_gb: {fileID: 1662392175}
+  dyk_flag_img: {fileID: 482972117}
+  dyk_country_name: {fileID: 1928011357}
+  dyk_country_description: {fileID: 239946729}
   hints:
   - {fileID: 227903437}
   - {fileID: 565902814}

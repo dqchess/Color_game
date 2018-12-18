@@ -5412,9 +5412,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starting_level: 1
-  max_level: 61
+  max_level: 62
   mode: EXPERT
   original_gb: {fileID: 1662392175}
+  dyk_flag_img: {fileID: 1310345338}
+  dyk_country_name: {fileID: 347413933}
+  dyk_country_description: {fileID: 705486189}
   hints: []
   timerSpeed: 7
   boTimerActive: 1
