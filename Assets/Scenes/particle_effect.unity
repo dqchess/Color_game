@@ -882,6 +882,9 @@ MonoBehaviour:
   max_level: 61
   mode: BEGINNER
   original_gb: {fileID: 1662392175}
+  dyk_flag_img: {fileID: 0}
+  dyk_country_name: {fileID: 0}
+  dyk_country_description: {fileID: 0}
   hints:
   - {fileID: 227903437}
   - {fileID: 565902814}
@@ -4206,6 +4209,7 @@ MonoBehaviour:
   tex: {fileID: 0}
   audio1: {fileID: 1226667293}
   audio2: {fileID: 1226667294}
+  dykPopup: {fileID: 0}
 --- !u!82 &1226667293
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4590,7 +4594,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1364520808}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 822.8282, y: 51.147606, z: -10.1251}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
