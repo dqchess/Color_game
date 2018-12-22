@@ -47,4 +47,6 @@ Assets/UETools/
 Assets/UETools*
 Assets/Resonai/
 Assets/Resonai*
+Assets/QuickSheet/Editor/*
+Assets/Data/Editor/*
 *.obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
