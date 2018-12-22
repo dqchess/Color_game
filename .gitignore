@@ -50,4 +50,11 @@ Assets/Resonai*
 Assets/QuickSheet/Editor/*
 Assets/Data/Editor/*
 Assets/QuickSheet/Example/*
+Assets/QuickSheet/ExcelPlugin/Editor/*
+Assets/QuickSheet/GDataPlugin/Editor/*
+Assets/Data/Editor.meta
+Assets/QuickSheet/Editor.meta
+Assets/QuickSheet/Example.meta
+Assets/QuickSheet/ExcelPlugin/Editor.meta
+Assets/QuickSheet/GDataPlugin/Editor.meta
 *.obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache
