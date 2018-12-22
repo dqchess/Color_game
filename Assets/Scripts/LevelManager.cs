@@ -5,6 +5,7 @@ using UnityEngine.UI;
 using System.Threading;
 using UnityEngine.Advertisements;
 using EasyMobile;
+using System.Linq;
 
 public class LevelManager : MonoBehaviour
 {
@@ -38,6 +39,7 @@ public class LevelManager : MonoBehaviour
 
     public GameObject adpopup;
 
+    public Facts country_facts;
 
     public void setDyKInfo()
     {
@@ -46,6 +48,17 @@ public class LevelManager : MonoBehaviour
         dyk_country_description.GetComponent<Text>().text = GetCountryDescriptionForLevel(current_level);
         dyk_country_name.GetComponent<Text>().text = GetCountryForLevel(current_level);
 
+
+        // Use LINQ to find the country fact
+        FactsData[] factsArray = country_facts.dataArray;
+        FactsData fact = factsArray.Where(s => s.Countryname == "India").FirstOrDefault();
+        //       dyk_country_description.GetComponent<Text>().text = fact.Facts;
+
+
+
+        List<string> fact_list  = fact.Facts.Split('$').ToList();
+        string current_fact_toshow = fact_list[Random.Range(0, fact_list.Count)];
+        dyk_country_description.GetComponent<Text>().text = current_fact_toshow;
 
     }
 

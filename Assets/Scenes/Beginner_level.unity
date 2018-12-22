@@ -1085,6 +1085,7 @@ MonoBehaviour:
   countdown: {fileID: 0}
   button: {fileID: 0}
   adpopup: {fileID: 0}
+  country_facts: {fileID: 11400000, guid: b0c2fbea4e3d5e44b86cc733bb8840a4, type: 2}
 --- !u!114 &414909997
 MonoBehaviour:
   m_ObjectHideFlags: 0
