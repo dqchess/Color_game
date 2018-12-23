@@ -60,7 +60,7 @@ public class IdentifyLevelManager : MonoBehaviour {
 
     void setScore(int score)
     {
-        GameObject.Find("ScoreText").GetComponent<Text>().text = "Current Score: " + score;
+        GameObject.Find("ScoreText").GetComponent<Text>().text = "" + score;
     }
 
     void LoadLevelForIdentifyFlag(int level_no)
@@ -116,7 +116,7 @@ public class IdentifyLevelManager : MonoBehaviour {
         }
         if (btn_name == "Next")
         {
-            if(current_level == 3)
+            if(current_level == 62)
             {
                 popup.SetActive(true);
 
