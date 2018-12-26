@@ -117,7 +117,7 @@ public class IdentifyLevelManager : MonoBehaviour {
         }
         if (btn_name == "Next")
         {
-            if(current_level == 2)
+            if(current_level == 62)
             {
                 popup.SetActive(true);
 
