@@ -9,15 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Splash_screen.unity
     guid: 0bc37f728f4944f6db856457d7bcce6b
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 777b9e60b6cab46b290287fb14175da9
+  - enabled: 1
     path: Assets/Scenes/Beginner_level.unity
     guid: 78bc362d570a2436f906a0c110401d9e
   - enabled: 1
     path: Assets/Scenes/Challenge_mode.unity
     guid: 276f90a75dd83453ebaef7185cca67b0
   - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 777b9e60b6cab46b290287fb14175da9
-  - enabled: 1
     path: Assets/Scenes/Expert_mode.unity
     guid: b3b8e62910c067644b4f1103b4220f58
+  - enabled: 1
+    path: Assets/Scenes/brainer.unity
+    guid: 3e334ed3f55bd4271a190b63d173b568
   m_configObjects: {}

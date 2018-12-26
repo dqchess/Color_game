@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class IdentifyLevelManager : MonoBehaviour {
@@ -112,11 +113,11 @@ public class IdentifyLevelManager : MonoBehaviour {
         if (btn_name == "home_btn")
         {
          
-            return;
+            SceneManager.LoadScene("Menu");
         }
         if (btn_name == "Next")
         {
-            if(current_level == 62)
+            if(current_level == 2)
             {
                 popup.SetActive(true);
 

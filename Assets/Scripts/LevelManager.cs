@@ -52,7 +52,7 @@ public class LevelManager : MonoBehaviour
         // Use LINQ to find the country fact
         FactsData[] factsArray = country_facts.dataArray;
         FactsData fact = factsArray.Where(s => s.Countryname == "India").FirstOrDefault();
-        //       dyk_country_description.GetComponent<Text>().text = fact.Facts;
+      //       dyk_country_description.GetComponent<Text>().text = fact.Facts;
 
 
 
