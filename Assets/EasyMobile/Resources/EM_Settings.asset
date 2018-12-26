@@ -175,27 +175,26 @@ MonoBehaviour:
         values: []
   mGameServiceSettings:
     mAutoInit: 1
-    mAutoInitDelay: 0
+    mAutoInitDelay: 5
     mAndroidMaxLoginRequests: 22
     mGpgsDebugLogEnabled: 1
     mGpgsPopupGravity: 0
     mLeaderboards:
-    - _name: Top Users
+    - _name: Champions
       _iosId: 
-      _androidId: CgkIkJjS_5gaEAIQAg
+      _androidId: CgkIj--S6IgWEAIQAQ
     mAchievements:
-    - _name: Cracked 10 Flags
+    - _name: 10 Flags
       _iosId: 
-      _androidId: CgkIkJjS_5gaEAIQAA
+      _androidId: CgkIj--S6IgWEAIQAg
     mAndroidXmlResources: "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<!--\r\nGoogle
       Play game services IDs.\r\nSave this file as res/values/games-ids.xml in your
       project.\r\n-->\r\n<resources>\r\n  <!-- app_id -->\r\n  <string name=\"app_id\"
-      translatable=\"false\">900063333392</string>\r\n  <!-- package_name -->\r\n
-      \ <string name=\"package_name\" translatable=\"false\">com.frimply.colorgame</string>\r\n
-      \ <!-- achievement Ten Flags -->\r\n  <string name=\"achievement_ten_flags\"
-      translatable=\"false\">CgkIkJjS_5gaEAIQAA</string>\r\n  <!-- leaderboard Number
-      of Flags Solved -->\r\n  <string name=\"leaderboard_number_of_flags_solved\"
-      translatable=\"false\">CgkIkJjS_5gaEAIQAg</string>\r\n</resources>\r\n"
+      translatable=\"false\">758280140687</string>\r\n  <!-- package_name -->\r\n
+      \ <string name=\"package_name\" translatable=\"false\">com.frimply.colortheflag</string>\r\n
+      \ <!-- achievement Crack 10 Flags -->\r\n  <string name=\"achievement_crack_10_flags\"
+      translatable=\"false\">CgkIj--S6IgWEAIQAg</string>\r\n  <!-- leaderboard Champions
+      -->\r\n  <string name=\"leaderboard_champions\" translatable=\"false\">CgkIj--S6IgWEAIQAQ</string>\r\n</resources>"
     mEnableSavedGames: 0
     mAutoConflictResolutionStrategy: 0
     mGpgsDataSource: 0
@@ -263,5 +262,5 @@ MonoBehaviour:
   mIsIAPModuleEnable: 0
   mIsGameServiceModuleEnable: 1
   mIsNotificationModuleEnable: 0
-  mActiveModuleIndex: 0
-  mIsSelectingModule: 1
+  mActiveModuleIndex: 2
+  mIsSelectingModule: 0

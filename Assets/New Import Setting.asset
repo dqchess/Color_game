@@ -14,7 +14,7 @@ MonoBehaviour:
   templatePath: QuickSheet/ExcelPlugin/Templates
   scriptFilePath: Data/Runtime
   editorScriptFilePath: Data/Editor
-  sheetName: CountryFacts.xls
+  sheetName: CountryFacts2.xls
   workSheetName: Facts
   columnHeaderList:
   - type: 3
@@ -29,7 +29,7 @@ MonoBehaviour:
     name: Facts
     isEnable: 0
     isArray: 0
-  excelFilePath: Assets/Excel/CountryFacts.xls
+  excelFilePath: Assets/Excel/CountryFacts2.xls
   SheetNames:
   - Facts
   - Sheet2

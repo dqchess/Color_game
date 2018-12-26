@@ -51,7 +51,7 @@ public class LevelManager : MonoBehaviour
 
         // Use LINQ to find the country fact
         FactsData[] factsArray = country_facts.dataArray;
-        FactsData fact = factsArray.Where(s => s.Countryname == "India").FirstOrDefault();
+        FactsData fact = factsArray.Where(s => s.Countryname == GetCountryForLevel(current_level)).FirstOrDefault();
       //       dyk_country_description.GetComponent<Text>().text = fact.Facts;
 
 
@@ -179,10 +179,10 @@ public class LevelManager : MonoBehaviour
         if (mode == "BEGINNER")
         {
             PlayerPrefs.SetInt("LastBeginnerLevelCracked", level);
-            GameServices.ReportScore(level, EM_GameServicesConstants.Leaderboard_Top_Users);
+            GameServices.ReportScore(level, EM_GameServicesConstants.Leaderboard_Champions);
             if (level == 10)
             {
-                GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_Cracked_10_Flags);
+                GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_10_Flags);
                 GameServices.ShowAchievementsUI();
             }
         }
@@ -207,8 +207,8 @@ public class LevelManager : MonoBehaviour
         GameObject.Find("Color_Object").GetComponent<InitMap>().Initiate();
         current_time = timerSpeed;
 
-        if ((current_level % 5 == 0) && (mode == "BEGINNER"))
-            LoadAdForBeginner();
+        //if ((current_level % 5 == 0) && (mode == "BEGINNER"))
+        //    LoadAdForBeginner();
 
         InitMap init = GameObject.Find("Color_Object").GetComponent<InitMap>();
         init.ShowHideHint();
@@ -216,7 +216,6 @@ public class LevelManager : MonoBehaviour
         Button next_btn = GameObject.Find("Next_button").GetComponent<Button>();
         next_btn.interactable = false;
 
-        Debug.Log("HoHo");
         boTimerActive = true;
 
         //Hide Particle System

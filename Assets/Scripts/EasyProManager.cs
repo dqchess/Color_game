@@ -66,7 +66,7 @@ public class EasyProManager : MonoBehaviour {
 
     public void ShowLeaderBoardForTopUsers1()
     {
-        GameServices.ShowLeaderboardUI(EM_GameServicesConstants.Leaderboard_Top_Users);
+        GameServices.ShowLeaderboardUI(EM_GameServicesConstants.Leaderboard_Champions);
     }
 
 

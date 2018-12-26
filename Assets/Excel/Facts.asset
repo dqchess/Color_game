@@ -15,14 +15,328 @@ MonoBehaviour:
   WorksheetName: Facts
   dataArray:
   - levelno: 1
-    countryname: India
-    facts: i1$i2$i3
+    countryname: Botswana
+    facts: "Botswana is approximately the size of France, but has only 2 million people
+      living in the country, compared to France\u2019s 66.9 million."
   - levelno: 2
-    countryname: Pakistan
-    facts: p1
+    countryname: Austria
+    facts: "The name Austria derives from a Germanic word \u2018austro\u2019, meaning
+      \u2018east\u2019. Ferdinand Porsche, who is the founder of the German sports
+      car company \u2018Porsche\u2019, was from Austria."
   - levelno: 3
-    countryname: Sri Lanka
-    facts: s1
+    countryname: Armenia
+    facts: Chess in Armenia is a compulsory subject in schools. All students have
+      to take chess as a compulsory subject in school and there are even exams for
+      it!
   - levelno: 4
+    countryname: Azerbaijan
+    facts: "When families are matchmaking in Azerbaijan, the tea tray gives a good
+      indication of how arrangements are progressing. If it\u2019s served without
+      sugar, more negotiating needs to be done; if it\u2019s sweet, a wedding is definitely
+      on the cards."
+  - levelno: 5
+    countryname: Bahamas
+    facts: "Dean\u2019s Blue Hole, West of Clarence Town, on Long Island Bahamas.
+      Plunging 202 metres into the sea, it\u2019s the deepest blue hole in the world."
+  - levelno: 6
+    countryname: Bahrain
+    facts: In addition to freshwater wells, which were once in abundance, there are
+      places in the sea north of Bahrain where fresh water bubbles up in the middle
+      of the salt water!
+  - levelno: 7
     countryname: Bangladesh
-    facts: b1
+    facts: Cox's Bazar, Bangladesh is longest unbroken sea beach in the world.
+  - levelno: 8
+    countryname: Belgium
+    facts: "Belgian men are the second tallest in the world \u2013 with a height of
+      181.7cm, only Dutchmen are taller at 182.5cm. The same can't be said for Belgian
+      women, however, who rank 21 at 165.5cm tall."
+  - levelno: 9
+    countryname: Benin
+    facts: Benin was the first country in the 1990s to make the transition from a
+      dictatorship to a multiparty democracy.
+  - levelno: 10
+    countryname: Algeria
+    facts: The Sahara Desert covers 90% of the land and with some the hottest temperatures
+      ever recorded, it is not suitable for occupation. As a result of this, only
+      12% of the country has human communities.
+  - levelno: 11
+    countryname: Bolivia
+    facts: "Bolivia is home to Salar de Uyuni, the \u201Clargest natural mirror on
+      Earth.$Bolivia lost its colony on the Pacific Ocean to Chile following the war
+      of the Pacific."
+  - levelno: 12
+    countryname: Ukrain
+    facts: Data from the World Health Organisation (WHO) ranks Ukraine sixth for alcohol
+      consumption, with 13.9 litres glugged per capita per year. Only Belarus, which
+      tops the chart, Moldova, Lithuania, Russia and Romania consume more.
+  - levelno: 13
+    countryname: Burkina_faso
+    facts: 497 species of birds have been found in Burkina Faso, only one of which
+      is endangered, which is the Egyptian vulture. The country has ten important
+      bird areas.
+  - levelno: 14
+    countryname: Cameroon
+    facts: Every variety of flora and fauna that is available in tropical Africa can
+      be found in Cameroon as well? It is home to at least 409 species of mammals
+      and 165 species of birds.
+  - levelno: 15
+    countryname: Chad
+    facts: People of Chad use Kakaki, a long metal trumpet in traditional ceremonial
+      music. The instrument signifies power and is always played by men.
+  - levelno: 16
+    countryname: Chile
+    facts: 16,000 fireworks were exploded in the Chilean city of Valparaiso in 2007.
+      This remains a Guinness World Record.
+  - levelno: 17
+    countryname: Colombia
+    facts: "Colombia is named after the legendary Italian explorer, navigator, and
+      colonizer \u2013 Christopher Columbus"
+  - levelno: 18
+    countryname: Congo_Republic
+    facts: "The country is among the most resource-rich countries on the planet, with
+      an abundance of gold, tantalum, tungsten, and tin \u2013 all minerals used in
+      electronics such as cell phones and laptops \u2013 yet it continues to have
+      an extremely poor population."
+  - levelno: 19
+    countryname: Costa_Rica
+    facts: "Costa Ricans refer to themselves as \u201CTicos\u201D (males) and \u201CTicas\u201D
+      (females). Foreigners are often called \u201CGringos\u201D (males) and \u201CGringas\u201D
+      (females)."
+  - levelno: 20
+    countryname: Cote_d_Ivoire
+    facts: "Cote d\u2019Ivorie has the largest church in the world. The Basilica of
+      Our Lady of Peace of Yamoussoukro surpasses even St Peter\u2019s Basilica, with
+      an exterior area of 30,000 square metres and It can hold about 18,000 worshipers,
+      though is very rarely full."
+  - levelno: 21
+    countryname: Czech_Republic
+    facts: The language has a formal and an informal form, and the natives are patient
+      with foreigners who use them inappropriately. They are proud of their Czech
+      language, which the U. S. Foreign Institute ranks as the second most difficult
+      language to learn.
+  - levelno: 22
+    countryname: Denmark
+    facts: In Denmark, it rains or snows every second day.
+  - levelno: 23
+    countryname: Estonia
+    facts: Estonians love their forests, bogs and all the creatures that live there
+      such as lynxes, brown bears, wolves, foxes, rabbits and deers. It's right to
+      say that Estonians come with a tree hugging trait.
+  - levelno: 24
+    countryname: Finland
+    facts: "There are exactly 179,584 islands in and around Finland, a world record.
+      Off the southwest coast are the \xC2land Islands, which are populated by the
+      Swedish speaking people and have been autonomous since 1921."
+  - levelno: 25
+    countryname: France
+    facts: "The French Army was the first to use camouflage in 1915 (World War I)
+      \u2013 the word camouflage came from the French verb \u2018to make up for the
+      stage\u2019. Guns and vehicles were painted by artists called camofleurs."
+  - levelno: 26
+    countryname: Gabon
+    facts: The entire country of Gabon is just slightly smaller than the state of
+      Colorado in the United States.
+  - levelno: 27
+    countryname: Gambia
+    facts: The Gambia left the Commonwealth in 2013. Its president said the British
+      had taught them nothing except how to sing Baa, Baa Black Sheep and God Save
+      the Queen.
+  - levelno: 28
+    countryname: Georgia
+    facts: Georgia was founded in 1732 by British Member of Parliament James Oglethorpe
+      as a felon colony. Oglethorpe wanted to use the colony as a place for prisoners
+      who could not pay their debts.
+  - levelno: 29
+    countryname: Germany
+    facts: "Germany was the first country in the world to adopt Daylight saving time
+      \u2013 DST, also known as summer time. This occured in 1916 in the midst of
+      WWI and was put in place to conserve energy."
+  - levelno: 30
+    countryname: Ghana
+    facts: "Ghana is part of one of Africa\u2019s oldest civilizations \u2013 the
+      Ghana Empire. This is a civilization that is over one millennium old. It is
+      famed for its legendary warriors who ruthlessly conquered territories and exerted
+      a powerful reign."
+  - levelno: 31
+    countryname: Guinea
+    facts: "Formerly known as French Guinea, Guinea gained independence in 1958. It
+      is now sometimes known as Guinea-Conakry to distinguish it from Guinea-Bissau.The
+      average life expectancy here is 49 years. Around 60% of the land is classified
+      as woodland or forest. We bet it\u2019s amazing!"
+  - levelno: 32
+    countryname: Guinea_Bissau
+    facts: Once hailed as a potential model for African development, Guinea-Bissau
+      is now one of the poorest countries in the world.
+  - levelno: 33
+    countryname: Hungary
+    facts: "Thanks to an abundance of natural hot springs, Hungary can boast around
+      450 public spas and bathhouses. A prominent bathing culture has existed since
+      Roman times; it is supposedly the best cure for a hangover \u2013 or \u201Ccat\u2019s
+      wail\u201D as the Hungarian term macskajaj translates."
+  - levelno: 34
+    countryname: Iceland
+    facts: "There is a volcanic eruption every 4 years on average.$A majority of Icelanders
+      believe in elves.$There are no forests in Iceland.$At 43.5 hours per week, they
+      have the longest work week in Europe.$Babies in Iceland are routinely left outside
+      to nap.$There are no surnames or family names in Iceland \u2013 Icelanders use
+      the traditional Nordic naming system, which includes a last name that is comprised
+      from their father\u2019s (or mother\u2019s) first name with the addition of
+      -d\xF3ttir (-daughter) or -son."
+  - levelno: 35
+    countryname: Indonesia
+    facts: "The world\u2019s largest flower, Rafflesia Arnoldi, weighs up to 7 kg
+      (15 pounds) and only grows on the island of Sumatra, Indonesia. Its petals grow
+      to 0.5 meters (1.6 feet) long and 2.5 cm (1 inch) thick."
+  - levelno: 36
+    countryname: Ireland
+    facts: "Northern Ireland is governed by the United Kingdom, while the rest of
+      Ireland is an independent nation.$When children are little, each birthday it
+      is traditional to pick up the child, turn them over and bump their head gently
+      on their birthday cake. The child\u2019s head is bumped once for each year they
+      have lived. It is believed that partaking in this tradition brings good luck
+      and good fortune to the child."
+  - levelno: 37
+    countryname: Italya
+    facts: In 2007, a dog named Rocco discovered a truffle in Tuscany that weighed
+      3.3 pounds. It was sold at an auction for $333,000 (USD), a world record for
+      a truffle.
+  - levelno: 38
+    countryname: Japan
+    facts: "Japan sells more adults diapers than baby diapers. The country\u2019s
+      population is on the decline and people over the age of 46 outnumber younger
+      Japanese."
+  - levelno: 39
+    countryname: Lithuania
+    facts: "Every year the river Vilnia is dyed bright emerald green for St. Patrick\u2019s
+      Day. The idea originated in Chicago in the sixties, when Irish plumbers discovered
+      an entirely harmless way of dyeing water."
+  - levelno: 40
+    countryname: Luxembourg
+    facts: Luxembourg is one of the safest countries in the world. According to a
+      UN survey, you have less chance of being shot in Luxembourg than in any other
+      country in the world. There are around 1,300 police and just two jails in Luxembourg.
+  - levelno: 41
+    countryname: Madagascar
+    facts: Ranavalona (popularly known as the mad queen). She thwarted European efforts
+      to gain sway over Madagascar during her 33-year rule, but also focused her energies
+      on brutally eradicating Christians, neighbouring kingdoms and political rivals.
+  - levelno: 42
+    countryname: Mali
+    facts: "Almost half of Mali\u2019s population lives below the international poverty
+      line. Mali is one of the 25 poorest countries in the world. The average annual
+      salary of a Malian is $1,500 (U.S. dollars) annually."
+  - levelno: 43
+    countryname: Mauritius
+    facts: Mauritius is a volcanic island that first rose above the waves eight million
+      years ago.$In 2017, Mauritius was named one of only four countries in the world
+      which had no involvement in ongoing international or domestic conflict and no
+      tensions with neighbouring countries. The others were Botswana, Chile and Uruguay.
+  - levelno: 44
+    countryname: Monaco
+    facts: "Almost 30% of the population of Monaco was a millionaire in 2014.$Monaco
+      does not have its own major defense force. The country\u2019s defense; however,
+      is France\u2019 responsibility."
+  - levelno: 45
+    countryname: Netherlands
+    facts: 'The Dutch were the first in the world to legalise gay marriage: same-sex
+      marriage has been legal in the Netherlands since 2001.'
+  - levelno: 46
+    countryname: Nigera
+    facts: While English is the official language, there are over 500 indigenous languages
+      in Nigeria.Seven percent of the total languages spoken in the world are spoken
+      in Nigeria.
+  - levelno: 47
+    countryname: Nigeria
+    facts: While English is the official language, there are over 500 indigenous languages
+      in Nigeria.Seven percent of the total languages spoken in the world are spoken
+      in Nigeria.
+  - levelno: 48
+    countryname: Pakistan
+    facts: "Pakistan is the world\u2019s first Islamic country to attain nuclear power.$Pakistan
+      has the largest canal-based irrigation system in the world.$Pakistan has the
+      world\u2019s largest ambulance network. Pakistan\u2019s Edhi Foundation, which
+      is also listed in the Guinness Book of World Records, operates the network.$Pakistan
+      International Airlines (PIA) was founded on 23 October 1946 as Orient Airways.
+      The airline was nationalized on January 10th, 1955. The airline has a world
+      record for flying the fastest between London and Karachi. The airline achieved
+      this feat in 1962 when they completed the flight in 6 hours, 43 minutes, 55
+      seconds, a record which remains unbroken to this day."
+  - levelno: 49
+    countryname: Yemen
+    facts: "Sana\u2019a is the capital and largest city Yemen. It is one of the oldest
+      continuously inhabited cities in the world. At an elevation of 2,300 metres
+      (7,500 ft), it is also one of the highest capital cities in the world.$Yemen\u2019s
+      territory includes more than 200 islands."
+  - levelno: 50
+    countryname: Peru
+    facts: "Peruvians celebrate New Year\u2019s by gifting one another yellow underpants
+      on New Year\u2019s Eve to bring good luck in the coming year. It is tradition
+      to wear them inside out (underneath clothing) until midnight, then flip them
+      around at the stroke of midnight."
+  - levelno: 51
+    countryname: Poland
+    facts: In 1853, Ignacy Lukasiewicz introduced the first modern street lamp from
+      in Europe. His lamp inventions were, however, first used in Lviv in Ukraine.
+      There is still a street in Warsaw that uses the same street lamps until today.
+  - levelno: 52
+    countryname: Qatar
+    facts: "Qatar\u2019s per capita GDP is $127,600, according to the IMF. That\u2019s
+      some way ahead of Luxembourg, in second place, with $104,003. Having the world's
+      third-largest natural-gas reserves and oil reserves, despite being geographically
+      smaller than Yorkshire, certainly helps."
+  - levelno: 53
+    countryname: Romania
+    facts: 'Romania is the fifth booziest country in the world, behind four more Eastern
+      European states: Belarus, Russia, Moldova and Lithuania. The average Romanian
+      consumes 14.4 litres of pure alcohol each year, compared to 11.6 litres in Britain.'
+  - levelno: 54
+    countryname: Russia
+    facts: There is a restaurant in Moscow staffed entirely by twins. The Twin Stars
+      diner employs identically-dressed siblings and takes inspiration from 1964 Soviet
+      film Kingdom of Crooked Mirrors.
+  - levelno: 55
+    countryname: Sierra_Leone
+    facts: The history of Sierra Leone began when the land became inhabited by indigenous
+      African peoples at least 2,500 years ago. The dense tropical rainforest partially
+      isolated the region from other West African cultures, and it became a refuge
+      for peoples escaping violence and jihads.
+  - levelno: 56
+    countryname: Somalia
+    facts: "Somalia is located on the outer edge of the Somali Peninsula, which is
+      also known as \u201Cthe Horn of Africa."
+  - levelno: 57
+    countryname: Sudan
+    facts: Homosexuality is not legal in the Sudan and is a capital offense.
+  - levelno: 58
+    countryname: Sweden
+    facts: "Swedes study and work hard but they also take their rest and relaxation
+      seriously. So the fika \u2013 a coffee break that normally consists of coffee
+      or tea, cookies or sweet buns, but can also include soft drinks, fruit and sandwiches
+      \u2013 is a social institution and an important part of the national culture.
+      You can fika(it\u2019s a verb as well as a noun) with your family or on your
+      first date."
+  - levelno: 59
+    countryname: Thailand
+    facts: "You\u2019re lucky that you know Bangkok, Thailand as \u201CBangkok.\u201D
+      Its real name is made up of Pali and Sanskrit root words: Krungthepmahanakhon
+      Amonrattanakosin Mahintharayutthaya Mahadilokphop Noppharatratchathaniburirom
+      Udomratchaniwetmahasathan Amonphimanawatansathit Sakkathattiyawitsanukamprasit."
+  - levelno: 60
+    countryname: Turkey
+    facts: "Saint Nicholas was born far from the North Pole, in Patara. And he\u2019s
+      not the only saint with connections to Turkey \u2014 the Virgin Mary\u2019s
+      resting place could be near Ephesus, while Saint Paul was from Tarsus in the
+      south. Other Biblical figures include the Prophet Abraham, born in \u015Eanl\u0131urfa.
+      And after the deluge, Noah may have run his ark aground at Mount Ararat."
+  - levelno: 61
+    countryname: Bulgaria
+    facts: "Bulgaria is the only country in Europe that hasn\u2019t changed its name
+      since it was first established. This happened in 681 AD. Bulgarians shake their
+      heads to mean yes and nod for no."
+  - levelno: 62
+    countryname: Palau
+    facts: Palau is a beautiful tropical paradise, and one of the true unspoiled destinations
+      on the planet. Geographically, the terrain varies from the high, mountainous
+      main island of Babeldaob to low coral islands usually fringed by large barrier
+      reefs

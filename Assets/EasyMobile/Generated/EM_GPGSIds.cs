@@ -24,8 +24,8 @@
 
 public static class EM_GPGSIds
 {
-        public const string leaderboard_number_of_flags_solved = "CgkIkJjS_5gaEAIQAg"; // <GPGSID>
-        public const string achievement_ten_flags = "CgkIkJjS_5gaEAIQAA"; // <GPGSID>
+        public const string achievement_crack_10_flags = "CgkIj--S6IgWEAIQAg"; // <GPGSID>
+        public const string leaderboard_champions = "CgkIj--S6IgWEAIQAQ"; // <GPGSID>
 
 }
 

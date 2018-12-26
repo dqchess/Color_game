@@ -19,11 +19,12 @@ public class IdentifyLevelManager : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        LoadLevelForIdentifyFlag(1);
+        current_level = 1;
+        LoadLevelForIdentifyFlag(current_level);
         setupButtonListeners();
         score = 0;
         setScore(score);
-        current_level = 0;
+        
     }
     void setupButtonListeners() {
         for (int i = 1; i <= 4; ++i)
@@ -87,7 +88,7 @@ public class IdentifyLevelManager : MonoBehaviour {
         GameObject.Find(correct_txt).GetComponent<Text>().text = GetCountryForLevel(level);
         for(int i = 1; i <=4; ++i)
         {
-            Debug.Log("Setting incorrect buttons: " + i);
+            
             if (i == random_num_for_correct_button)
                 continue;
             GameObject.Find("text" + i).GetComponent<Text>().text = GetCountryForLevel((level + (i * 5)) % 62);
