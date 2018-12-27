@@ -45,7 +45,8 @@ MonoBehaviour:
       of the salt water!
   - levelno: 7
     countryname: Bangladesh
-    facts: Cox's Bazar, Bangladesh is longest unbroken sea beach in the world.
+    facts: Cox's Bazar, Bangladesh with an unbroken length of 120 km (75 mi) is the
+      longest natural sea beach in the world.
   - levelno: 8
     countryname: Belgium
     facts: "Belgian men are the second tallest in the world \u2013 with a height of
@@ -67,9 +68,9 @@ MonoBehaviour:
       of the Pacific."
   - levelno: 12
     countryname: Ukrain
-    facts: Data from the World Health Organisation (WHO) ranks Ukraine sixth for alcohol
-      consumption, with 13.9 litres glugged per capita per year. Only Belarus, which
-      tops the chart, Moldova, Lithuania, Russia and Romania consume more.
+    facts: Data WHO ranks Ukraine sixth for alcohol consumption, with 13.9 litres
+      glugged per capita per year. Only Belarus, which tops the chart, Moldova, Lithuania,
+      Russia and Romania consume more.
   - levelno: 13
     countryname: Burkina_faso
     facts: 497 species of birds have been found in Burkina Faso, only one of which
@@ -139,9 +140,9 @@ MonoBehaviour:
       Colorado in the United States.
   - levelno: 27
     countryname: Gambia
-    facts: The Gambia left the Commonwealth in 2013. Its president said the British
-      had taught them nothing except how to sing Baa, Baa Black Sheep and God Save
-      the Queen.
+    facts: Gambia left the Commonwealth in 2013. Its president said the British had
+      taught them nothing except how to sing Baa, Baa Black Sheep and God Save the
+      Queen.
   - levelno: 28
     countryname: Georgia
     facts: Georgia was founded in 1732 by British Member of Parliament James Oglethorpe
@@ -160,10 +161,10 @@ MonoBehaviour:
       a powerful reign."
   - levelno: 31
     countryname: Guinea
-    facts: "Formerly known as French Guinea, Guinea gained independence in 1958. It
+    facts: Formerly known as French Guinea, Guinea gained independence in 1958. It
       is now sometimes known as Guinea-Conakry to distinguish it from Guinea-Bissau.The
       average life expectancy here is 49 years. Around 60% of the land is classified
-      as woodland or forest. We bet it\u2019s amazing!"
+      as woodland or forest.
   - levelno: 32
     countryname: Guinea_Bissau
     facts: Once hailed as a potential model for African development, Guinea-Bissau
@@ -199,12 +200,12 @@ MonoBehaviour:
   - levelno: 37
     countryname: Italya
     facts: In 2007, a dog named Rocco discovered a truffle in Tuscany that weighed
-      3.3 pounds. It was sold at an auction for $333,000 (USD), a world record for
+      3.3 pounds. It was sold at an auction for 333,000 (USD), a world record for
       a truffle.
   - levelno: 38
     countryname: Japan
     facts: "Japan sells more adults diapers than baby diapers. The country\u2019s
-      population is on the decline and people over the age of 46 outnumber younger
+      population is on the decline and people over the age of 46 out-number younger
       Japanese."
   - levelno: 39
     countryname: Lithuania
@@ -218,14 +219,14 @@ MonoBehaviour:
       country in the world. There are around 1,300 police and just two jails in Luxembourg.
   - levelno: 41
     countryname: Madagascar
-    facts: Ranavalona (popularly known as the mad queen). She thwarted European efforts
+    facts: Ranavalona (popularly known as the mad queen), thwarted European efforts
       to gain sway over Madagascar during her 33-year rule, but also focused her energies
       on brutally eradicating Christians, neighbouring kingdoms and political rivals.
   - levelno: 42
     countryname: Mali
     facts: "Almost half of Mali\u2019s population lives below the international poverty
       line. Mali is one of the 25 poorest countries in the world. The average annual
-      salary of a Malian is $1,500 (U.S. dollars) annually."
+      salary of a Malian is 1,500 (U.S. dollars) annually."
   - levelno: 43
     countryname: Mauritius
     facts: Mauritius is a volcanic island that first rose above the waves eight million
@@ -235,12 +236,12 @@ MonoBehaviour:
   - levelno: 44
     countryname: Monaco
     facts: "Almost 30% of the population of Monaco was a millionaire in 2014.$Monaco
-      does not have its own major defense force. The country\u2019s defense; however,
+      does not have its own major defense force. The country\u2019s defense however,
       is France\u2019 responsibility."
   - levelno: 45
     countryname: Netherlands
-    facts: 'The Dutch were the first in the world to legalise gay marriage: same-sex
-      marriage has been legal in the Netherlands since 2001.'
+    facts: The Dutch were the first in the world to legalise gay marriage. Same-sex
+      marriage has been legal in the Netherlands since 2001.
   - levelno: 46
     countryname: Nigera
     facts: While English is the official language, there are over 500 indigenous languages
@@ -281,9 +282,9 @@ MonoBehaviour:
       There is still a street in Warsaw that uses the same street lamps until today.
   - levelno: 52
     countryname: Qatar
-    facts: "Qatar\u2019s per capita GDP is $127,600, according to the IMF. That\u2019s
-      some way ahead of Luxembourg, in second place, with $104,003. Having the world's
-      third-largest natural-gas reserves and oil reserves, despite being geographically
+    facts: "Qatar\u2019s per capita GDP is 127,600 USD, according to the IMF. That\u2019s
+      some way ahead of Luxembourg, in second place, with 104,003 USD. Having the
+      world's third-largest natural-gas reserves and oil reserves, despite being geographically
       smaller than Yorkshire, certainly helps."
   - levelno: 53
     countryname: Romania
@@ -307,7 +308,7 @@ MonoBehaviour:
       also known as \u201Cthe Horn of Africa."
   - levelno: 57
     countryname: Sudan
-    facts: Homosexuality is not legal in the Sudan and is a capital offense.
+    facts: Homosexuality is not legal in Sudan and is a capital offense.
   - levelno: 58
     countryname: Sweden
     facts: "Swedes study and work hard but they also take their rest and relaxation
