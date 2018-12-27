@@ -15,7 +15,7 @@ public class IdentifyLevelManager : MonoBehaviour {
     public GameObject popup;
     public Button btn_redo;
     public Button btn_home;
-
+    public GameObject finalscore;
 
     // Use this for initialization
     void Start () {
@@ -121,6 +121,8 @@ public class IdentifyLevelManager : MonoBehaviour {
             if(current_level == 62)
             {
                 popup.SetActive(true);
+                finalscore.GetComponent<Text>().text = score.ToString();
+
 
             }
             LoadLevelForIdentifyFlag(++current_level);
