@@ -11,9 +11,12 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
     private Vector3 screenPoint;
     private Vector3 offset;
     public GameObject editable_map;
+    public GameObject original_map;
+    public GameObject particles;
     public Texture2D tex;
     public AudioSource audio1;
     public AudioSource audio2;
+    public GameObject dykPopup;
 
     // Use this for initialization
     void Start() {
@@ -50,10 +53,20 @@ public class FloodFillSprite : MonoBehaviour, IPointerDownHandler
         tex.Apply();
         if (gameObject.GetComponent<InitMap>().AreImagesMatching(tex))
         {
-            var sprite = Resources.Load<Sprite>("done");
+            original_map.SetActive(true);
+            //editable_map.SetActive(false); //TODO Right Now its a hack in the layer it is pasted
+
+            //var sprite = Resources.Load<Sprite>("done");
             audio1.Play();
-            editable_map.GetComponent<Image>().sprite = sprite;
-            Debug.Log("Yohooooo");
+            //editable_map.GetComponent<Image>().sprite = sprite;
+            //Debug.Log("Yohooooo");
+            Button next_btn = GameObject.Find("Next_button").GetComponent<Button>();
+            next_btn.interactable = true;
+            dykPopup.SetActive(true);
+
+            LevelManager levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+            levelManager.boTimerActive = false; //Disabling Timer TODO - Better to create a delegate here 
+            particles.SetActive(true);
         }
         //editable_map.GetComponent<Image>().sprite = tex;
     }
