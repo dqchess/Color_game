@@ -153,7 +153,7 @@ PlayerSettings:
     iOS: com.frimply.colortheflags
   buildNumber:
     iOS: 7
-  AndroidBundleVersionCode: 5
+  AndroidBundleVersionCode: 7
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
   AndroidPreferredInstallLocation: 1
@@ -238,7 +238,7 @@ PlayerSettings:
   clonedFromGUID: 5f34be1353de5cf4398729fda238591b
   templatePackageId: com.unity.template.2d@1.0.1
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  AndroidTargetArchitectures: 5
+  AndroidTargetArchitectures: 1
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: E:/sources/hyper_casual_1/frugalplay.keystore
@@ -594,7 +594,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADCOLONY;EM_ADMOB
     4: EASY_MOBILE;EASY_MOBILE_PRO;NO_GPGS;EM_ADMOB
-    7: EASY_MOBILE;EASY_MOBILE_PRO;EM_GPGS;EM_ADCOLONY;EM_ADMOB
+    7: EASY_MOBILE;EASY_MOBILE_PRO;EM_GPGS;EM_ADMOB
     13: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADCOLONY;EM_ADMOB
     14: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADCOLONY;EM_ADMOB
     18: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADCOLONY;EM_ADMOB
