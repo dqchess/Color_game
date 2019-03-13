@@ -9,15 +9,15 @@ PlayerSettings:
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 0
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: frimply
-  productName: colortheflag
+  productName: colortheflags
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
-  m_ShowUnitySplashScreen: 1
+  m_ShowUnitySplashScreen: 0
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 1
   m_SplashScreenAnimation: 1
@@ -113,7 +113,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 0.5
+  bundleVersion: 0.7
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -150,7 +150,9 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.frimply.colortheflag
     Standalone: com.Company.ProductName
-  buildNumber: {}
+    iOS: com.frimply.colortheflags
+  buildNumber:
+    iOS: 7
   AndroidBundleVersionCode: 5
   AndroidMinSdkVersion: 16
   AndroidTargetSdkVersion: 0
@@ -591,7 +593,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   scriptingDefineSymbols:
     1: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADCOLONY;EM_ADMOB
-    4: EASY_MOBILE;EASY_MOBILE_PRO;NO_GPGS;EM_ADCOLONY;EM_ADMOB
+    4: EASY_MOBILE;EASY_MOBILE_PRO;NO_GPGS;EM_ADMOB
     7: EASY_MOBILE;EASY_MOBILE_PRO;EM_GPGS;EM_ADCOLONY;EM_ADMOB
     13: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADCOLONY;EM_ADMOB
     14: EASY_MOBILE;EASY_MOBILE_PRO;EM_ADCOLONY;EM_ADMOB
@@ -673,7 +675,7 @@ PlayerSettings:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
   cloudServicesEnabled:
-    Build: 1
+    Build: 0
     Collab: 0
     ErrorHub: 0
     Hub: 0
