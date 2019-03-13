@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09ad9ddc0e5b942a98ec392b434d39bd, type: 3}
+  m_Name: FabricSettings
+  m_EditorClassIdentifier: 
+  email: hiteshganjoo@gmail.com
+  rawToken: '{"access_token":"8e7511151cfb5de5d058d16c9ce54fd317964d1b44e1e66e3e706743a9e70030","refresh_token":"fdd42853b760788300fa566395590e68bb4b6f286604d788e207850b4c246f95","token_type":"bearer","expires_in":86400}'
+  organization:
+    Name: "Hitesh Ganjoo\u2019s Projects"
+    Id: 55f7e4243d39a53644000008
+    ApiKey: cf03bc6b36e679325d61cdf4198ad67e6a2657dc
+    BuildSecret: d58346f7188a3598e5e3dd46d15000607348845e1c35ce378d041c1b7e26f086
+  iconUrl: 
+  dashboardUrl: 
+  initialization: 0
+  flowSequence: 0
+  conflict: 
+  kit: 
+  installedKits:
+  - Name: Crashlytics
+    InstallationStatus: 1
+    Installed: 0
+    Enabled: 1
+    Meta:
+    - Key: ConfiguredTimestamp
+      Value: 1552485283
+      Platform: 
+    - Key: Dependencies
+      Value: '[{"name":"Crashlytics-Android","version":"2.9.7"},{"name":"Crashlytics-Core-Android","version":"2.6.6"},{"name":"Fabric-Android","version":"1.4.6"},{"name":"Answers-Android","version":"1.4.5"},{"name":"Beta-Android","version":"1.2.10"},{"name":"Crashlytics-iOS","version":"3.12.0"},{"name":"Crashlytics-Wrapper-iOS","version":"0.0.0"},{"name":"Crashlytics-Wrapper-Android","version":"0.0.0"}]'
+      Platform: 
