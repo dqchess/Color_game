@@ -74,10 +74,10 @@ namespace EasyMobile
         [SerializeField]
         bool _autoHeight = true;
 
-        [SerializeField, Min(8)]
+        [SerializeField, UnityEngine.Min(8)]
         int _width = 320;
 
-        [SerializeField, Min(8)]
+        [SerializeField, UnityEngine.Min(8)]
         int _height = 480;
 
         [SerializeField, Range(1, 30)]

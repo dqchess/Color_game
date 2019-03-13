@@ -43,6 +43,7 @@ Thumbs.db
 *.apk
 *.exe
 test/
+Logs/
 Assets/UETools/
 Assets/UETools*
 Assets/Resonai/
