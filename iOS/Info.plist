@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plist version="1.0">
+  <dict>
+    <key>CADisableMinimumFrameDuration</key>
+    <false />
+    <key>CFBundleDevelopmentRegion</key>
+    <string>en</string>
+    <key>CFBundleDisplayName</key>
+    <string>colortheflags</string>
+    <key>CFBundleExecutable</key>
+    <string>${EXECUTABLE_NAME}</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.frimply.${PRODUCT_NAME}</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>${PRODUCT_NAME}</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>0.7</string>
+    <key>CFBundleVersion</key>
+    <string>7</string>
+    <key>CrashlyticsUnityVersion</key>
+    <string>1.3.0</string>
+    <key>Fabric</key>
+    <dict>
+      <key>APIKey</key>
+      <string>cf03bc6b36e679325d61cdf4198ad67e6a2657dc</string>
+      <key>InitializationType</key>
+      <string>Automatic</string>
+      <key>Kits</key>
+      <array>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+      </array>
+    </dict>
+    <key>LSRequiresIPhoneOS</key>
+    <true />
+    <key>NSAppTransportSecurity</key>
+    <dict>
+      <key>NSAllowsArbitraryLoads</key>
+      <true />
+    </dict>
+    <key>UIApplicationExitsOnSuspend</key>
+    <false />
+    <key>UILaunchStoryboardName~iphone</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UILaunchStoryboardName~ipod</key>
+    <string>LaunchScreen-iPhone</string>
+    <key>UIPrerenderedIcon</key>
+    <false />
+    <key>UIRequiredDeviceCapabilities</key>
+    <array>
+      <string>armv7</string>
+      <string>gamekit</string>
+    </array>
+    <key>UIRequiresFullScreen</key>
+    <true />
+    <key>UIRequiresPersistentWiFi</key>
+    <false />
+    <key>UIStatusBarHidden</key>
+    <true />
+    <key>UIStatusBarStyle</key>
+    <string>UIStatusBarStyleDefault</string>
+    <key>UISupportedInterfaceOrientations</key>
+    <array>
+      <string>UIInterfaceOrientationPortrait</string>
+    </array>
+    <key>Unity_LoadingActivityIndicatorStyle</key>
+    <integer>-1</integer>
+    <key>UnityCloudProjectID</key>
+    <string>fc2bda4f-14d3-4d6c-bf66-f07932cc82a0</string>
+    <key>UnityCrashSubmissionURL</key>
+    <string>https://a:b@perf-events.cloud.unity3d.com/symbolicate</string>
+  </dict>
+</plist>

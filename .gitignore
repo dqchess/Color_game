@@ -12,7 +12,13 @@
 sysinfo.txt
 # Unity3D generated meta files
 *.pidb.meta
-iOS/
+iOS/Classes/
+iOS/Libraries/
+iOS/build/
+iOS/Data/
+iOS/Frameworks/
+iOS/UnityAds/
+iOS/Pods/
 
 ###
 # VS/MD solution and project files

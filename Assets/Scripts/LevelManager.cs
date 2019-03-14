@@ -179,18 +179,31 @@ public class LevelManager : MonoBehaviour
         if (mode == "BEGINNER")
         {
             PlayerPrefs.SetInt("LastBeginnerLevelCracked", level);
-            GameServices.ReportScore(level, EM_GameServicesConstants.Leaderboard_Champions);
-            if (level == 10)
+            if (Application.platform == RuntimePlatform.Android)
             {
-                GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_10_Flags);
-                GameServices.ShowAchievementsUI();
+                GameServices.ReportScore(level, EM_GameServicesConstants.Leaderboard_Champions);
+                if (level == 10)
+                {
+                    GameServices.UnlockAchievement(EM_GameServicesConstants.Achievement_10_Flags);
+                    GameServices.ShowAchievementsUI();
+                }
             }
+
+            else if (Application.platform == RuntimePlatform.IPhonePlayer)
+                Debug.Log("Not supported on iOS");
+
         }
         if (mode == "CHALLENGE")
-            PlayerPrefs.SetInt("LastChallengeLevelCracked", level);
-        if (mode == "EXPERT")
-            PlayerPrefs.SetInt("LastExpertLevelCracked", level);
+            if (Application.platform == RuntimePlatform.Android)
+                PlayerPrefs.SetInt("LastChallengeLevelCracked", level);
+        if (Application.platform == RuntimePlatform.Android)
+        {
+            if (mode == "EXPERT")
+                PlayerPrefs.SetInt("LastExpertLevelCracked", level);
+        }
 
+        else if (Application.platform == RuntimePlatform.IPhonePlayer)
+            Debug.Log("Not supporeted in this mode on IOS");
 
         //Replace sprites
         //original image

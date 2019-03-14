@@ -32,7 +32,7 @@ MonoBehaviour:
     Enabled: 1
     Meta:
     - Key: ConfiguredTimestamp
-      Value: 1552485283
+      Value: 1552554238
       Platform: 
     - Key: Dependencies
       Value: '[{"name":"Crashlytics-Android","version":"2.9.7"},{"name":"Crashlytics-Core-Android","version":"2.6.6"},{"name":"Fabric-Android","version":"1.4.6"},{"name":"Answers-Android","version":"1.4.5"},{"name":"Beta-Android","version":"1.2.10"},{"name":"Crashlytics-iOS","version":"3.12.0"},{"name":"Crashlytics-Wrapper-iOS","version":"0.0.0"},{"name":"Crashlytics-Wrapper-Android","version":"0.0.0"}]'
