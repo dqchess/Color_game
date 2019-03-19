@@ -83,7 +83,11 @@ public class InitMap : MonoBehaviour {
 
         if(levelmgr.GetCurrentLevel() == 67)
         {
-            min_matching_percentage = 15;
+            min_matching_percentage = 15; //Eritrea
+        }
+        if (levelmgr.GetCurrentLevel() == 69)
+        {
+            min_matching_percentage = 8; //Greeece
         }
 
     }
