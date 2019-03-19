@@ -42,11 +42,13 @@ public class LevelManager : MonoBehaviour
     public Facts country_facts;
 
     public Image progressBar;
+    public Text progressBarText;
 
     public void UpdateMatchPercentage(float percentage)
     {
         Debug.Log("Setting Fill Percentage: " + percentage);
         progressBar.fillAmount = percentage / 100f; ;
+        progressBarText.text = progressBar.fillAmount.ToString();
     }
 
 
