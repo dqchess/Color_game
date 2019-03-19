@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -72,7 +73,7 @@ MonoBehaviour:
       glugged per capita per year. Only Belarus, which tops the chart, Moldova, Lithuania,
       Russia and Romania consume more.
   - levelno: 13
-    countryname: Burkina_faso
+    countryname: Burkina_Faso
     facts: 497 species of birds have been found in Burkina Faso, only one of which
       is endangered, which is the Egyptian vulture. The country has ten important
       bird areas.
@@ -105,7 +106,7 @@ MonoBehaviour:
       (females). Foreigners are often called \u201CGringos\u201D (males) and \u201CGringas\u201D
       (females)."
   - levelno: 20
-    countryname: Cote_d_Ivoire
+    countryname: Cote_D_Ivoire
     facts: "Cote d\u2019Ivorie has the largest church in the world. The Basilica of
       Our Lady of Peace of Yamoussoukro surpasses even St Peter\u2019s Basilica, with
       an exterior area of 30,000 square metres and It can hold about 18,000 worshipers,
@@ -341,3 +342,812 @@ MonoBehaviour:
       on the planet. Geographically, the terrain varies from the high, mountainous
       main island of Babeldaob to low coral islands usually fringed by large barrier
       reefs
+  - levelno: 63
+    countryname: Cuba
+    facts: "From the air, the island of Cuba resembles a crocodile or alligator and
+      so Cuba is often referred to in Spanish as \"El Cocodrilo\" or \"El Caim\xE1.$Original
+      indigenous inhabitants of Cuba were the Guanajatabey people followed by the
+      Ciboney and Ta\xEDno tribes. In 1492, Christopher Columbus arrived on the island
+      and claimed it as a Spanish territory.$Cuba remained a Spanish colony until
+      the Spanish-American War of 1898 when the country became part of the United
+      States. $Cuba is renown for its music, bands play everywhere in the capital
+      Havana. The main musical form is called son, which is a combination of upbeat
+      rhythms with classical guitar.$In a traditional Cuban meal the food is not served
+      in courses, instead all the food is served at the same time.$The game of dominoes
+      is extremely popular in Cuba."
+  - levelno: 64
+    countryname: Cyprus
+    facts: "Cyprus is the third largest and third most populous island in the Mediterranean.$Some
+      of the world\u2019s oldest water wells can be found in Cyprus.$The largest bank
+      in Cyprus is owned by the Cypriot Orthodox Church. The church also plays a significant
+      role in the social and political life of the island\u2019s people.$Alexander
+      the Great seized the island from the Assyrians, Egyptians, and Persians in 333
+      BC.$Cyprus became independent from the British in 1960, on August 16th. However,
+      they celebrate their independence day on the 1st of October every year.$Legend
+      has it that the Greek goddess of love\u2013Aphrodite\u2013was born in Cyprus.
+      The country is also known as the playground of the Gods.$The island nation had
+      seen its golden era during the Copper and Bronze Ages. At that time, the country
+      was among the wealthiest of nations."
+  - levelno: 65
+    countryname: Djibouti
+    facts: "Djibouti is a country located in the Horn of Africa.$Total Population
+      of Djibouti is only 810,179.$Djibouti is the third smallest country in Africa
+      continental.$Lac Assal of Djibouti is the saltiest lake with the exception of
+      Antarctica\u2019s lakes. It is even saltier than the Dead Sea.$Lac Assal is
+      the lowest point in Djibouti, it is also the lowest point on the continent of
+      Africa.$Djibouti gained freedom from France in 1977.$Taxi fares at night increase
+      by around 50% after sunset.$The Danakil Desert is a lowland geothermal region
+      which extends into Ethiopia and Eritrea.$The official languages of Djibouti
+      are Arabic and French.$Erta Ale is a volcano that settles in the Danakil Desert."
+  - levelno: 66
+    countryname: East_Timor
+    facts: "East Timor sits in the Indian Ocean on an island also occupied by Indonesia.
+      $People in East Timor can expect to live 48 years. Many women die having babies.$It
+      comprises the eastern half of the island of Timor, the small nearby islands
+      of Atauro and Jaco and Oecusse, an exclave on the northwestern side of the island
+      surrounded by Indonesian West Timor.$After Indonesia, East Timor\u2019s closest
+      neighbor is Australia, 650 kilometers (400 miles) to the south.$East Timor has
+      two official languages: Portuguese and Tetum."
+  - levelno: 67
+    countryname: Eritrea
+    facts: "Soira is the highest point of Eritrea. It measures 3 018 meters high.$Tigrinya
+      is a member of the Ethiopic branch of Semitic languages with about 6 million
+      speakers and most largely-spoken language mainly in the Tigre region of Ethiopia
+      and in Central Eritrea.$The Denakil Depression is the lowest point in the country
+      and is considered to be one of the world\u2019s hottest places.$According to
+      Tigriyan, the meaning of the capital of Eritrea, Asmara means \u201CMade the
+      United\u201D.$Eritrea\u2019s language is called \u201CNara Bana\u201D, meaning
+      \u201CNara talk\u201D which derived from the word Nara name means \u201Csky,
+      heaven\u201D.$Eritrea literally means \u201Cred\u201D, and gets its name after
+      the Red Sea."
+  - levelno: 68
+    countryname: Ethiopia
+    facts: Founded in 980 B.C., Ethiopia is one of the oldest nations in the world.$Ethiopians
+      have one of the lowest life expectancies in the world. Current figures estimate
+      that women can expect to live for about 50 years, and men for about 48 years.$Some
+      of the traditional societies in Ethiopia view having twins as mingi, or a sign
+      of bad luck. They believe that twins may be cursed, or invite evil spirits.$The
+      Ethiopian calendar has 13 months and it is 7 or 8 years behind the Western calendar.
+      The 13th month has only five days, or six in a leap year.$The Great Rift Valley
+      cuts through Ethiopia from northeast to south of the country and is the only
+      physical feature of Africa that it visible from space.$Donkeys and camels were
+      first domesticated in Ethiopia.$The earliest instance of human ancestors using
+      tools has been traced to Ethiopia.
+  - levelno: 69
+    countryname: Greece
+    facts: "The whole country has more than 250 days of sun on average? That\u2019s
+      more than 3000 sunny hours per year. Some islands even see around 300 days of
+      sun per year.$Almost everyone in Greece is an ethnic Greek, and the rest of
+      the population are minorities, mainly from Albania, Armenia, Bulgaria, and F.Y.R.O.M.$THERE
+      ARE MORE THAN 2000 ISLANDS, but only 170 of them are populated. The other islands
+      are uninhabited.$Ikaria in Greece is what the scientists call a \u201Cblue zone\u201D
+      where people have the longest lifespans in the world.$At Traditional Greek Weddings
+      Everyone Dance And Throw Plates.$The amount of tourists is more than double
+      the amount of Greeks during the summer."
+  - levelno: 70
+    countryname: Guyana
+    facts: At Traditional Greek Weddings Everyone Dance And Throw Plates
+  - levelno: 71
+    countryname: Hondurasa
+    facts: "Honduras is located in Central America and borders the Caribbean Sea.$The
+      Spanish translation of Honduras is depths.$The currency in Honduras is the Honduran
+      Lempira which was named after an Indian chief who fought against the Spanish
+      army.$The National flag consists of stars and stripes. The stripes represent
+      the Pacific Ocean and Caribbean Sea and the five stars represent the 5 Central
+      American countries.$It is recognised to be the second poorest country as income
+      is the lowest in that region.$The rate of people aged 65+ is only 41% with the
+      excess mortality resulting from Aids.$Hondurasa is known as Spanish Honduras
+      to not confuse it with British Honduras which is now known as Belize.$Spanish
+      is the dominant language with Honduran sign language also being widely recognised.$The
+      economy at one point was solely dependent on the export of coffee and bananas.
+      As a result of this, Honduras has also been known as and referred to as the
+      banana republic, a name that was adopted in 1904.$Honduras holds the world\u2019s
+      highest murder rates. Honduras is renowned for its highway assaults, carjackings
+      and kidnappings.$Honduras houses many plant and animal species and has over
+      700 bird species."
+  - levelno: 72
+    countryname: India
+    facts: "India\u2019s government is a federal parliamentary constitutional republic.
+      They have a President, Vice President, Prime Minister, Speaker of the House
+      and Chief Justice.$India\u2019s army is the third largest in the world, and
+      they have been ranked as the seventh best armies in the world.$India is the
+      seventh largest country by total area.$India belongs to the continent of Asia,
+      it is bordered by the countries of Bangladesh, Bhutan, Burma, China, Nepal,
+      and Pakistan.$The highest mountain in India is Kanchenjunga, standing at 8,598m
+      (28,209 ft), which it shares with Nepal. Kanchenjunga is the third highest mountain
+      in the world.$It is estimated that over 850 languages are spoken in India on
+      a daily basis, and that there are over 1600 languages total that are known in
+      the country.$Because of India's location, it experiences periods of heavy rain
+      called Monsoon.$Once British rule was over, India was split into the Republic
+      of India and the Islamic Republic of Pakistan. Later, an area between India
+      and Pakistan became the People's Republic of Bangladesh.$The most popular sport
+      in India is cricket, with the Indian team being the first to win the Cricket
+      World Cup on home soil when they were victorious in 2011.$India has the largest
+      postal service in the world. Its postal network contains over 150,000 post offices,
+      yet it is also considered one of the slowest postal networks in the world.$The
+      Taj Mahal in India was built by a Mughal Emperor in the sixteenth century for
+      his wife. The legend of the magnificent building states that once the builders
+      were finished, their hands were cut off in order to prevent them from ever building
+      anything that was more beautiful than the Taj Mahal."
+  - levelno: 73
+    countryname: Iran
+    facts: "In Persian, the word Iran means \u201CLand of the Aryans.$In 2012, Iran\u2019s
+      police chief announced that Google is a tool for spying. Additionally, the Iranian
+      government wants to form a \u201Cnational Internet\u201D that would be under
+      state control.$In Iran, couples that want a marriage license are required to
+      take an hour-long lecture on contraception.$Approximately 14.2% of Iranians
+      are obese, making it the 41st most obese country in the world. American Samoa
+      is the largest, with 75% of its population obese. The United States is 6th in
+      the world, with 33.9% of the population obese.$Iran\u2019s capital and largest
+      city, Tehran, has some of the worst air pollution in the world. An estimated
+      27 people die a day from air pollution-related diseases.$Nearly half of Iran
+      has an arid desert climate. It receives less than 4 inches of precipitation
+      each year.$Approximately 70% of Iran\u2019s population is under the age of 30.$An
+      Iranian organization offered a reward of USD 3 million to anyone who killed
+      Salman Rushdie, the author of The Satanic Verses. The book hinted that some
+      of the verses of the Koran might not be real revelations from God and that the
+      devil disguised himself to give Mohammed false ideas."
+  - levelno: 74
+    countryname: Iraq
+    facts: "During the Iraq-Iran war in the 1980s, Saddam Hussein was an ally of the
+      United States.$In the memory of Iraqi soldiers who died during the Iraq-Iran
+      war, a monument\u2014al-Shaheed Monument\u2014was built in Baghdad.$Since the
+      Gulf War, an increasing number of women were sold into sex slavery.$The underground
+      bunkers built for Saddam Hussein were said to be virtually indestructible, being
+      able to resist a direct hit by a 2,000-kilo TNT bomb. And the bunkers were as
+      deep as 90 meters under the ground.$The Tigris and Euphrates are the two major
+      rivers of Iraq. These rivers contribute significantly toward making the land
+      of Iraq very fertile.$Islamic traditions relate that Noah\u2019s ark was built
+      in the city of Kufa, which is in Iraq. The ark was built by prophet Nuh/Noah
+      (P.B.U.H).$Iraq\u2019s oil reserves (approx \u2013 150 billion barrels) are
+      the fifth largest in the world. Venezuela tops the charts with 298 billion barrels
+      of oil.$Almost half of all married couples in Iraq are first or second cousins.$Reading
+      of fortunes in the constellations\u2019 and \u2018the fear of black cats\u2019
+      were all invented in Iraq, as per archaeologist Leonard Woolley."
+  - levelno: 75
+    countryname: Israel
+    facts: There are over 100 sushi restaurants in Tel Aviv making it the city with
+      the most sushi restaurants per capita after Tokyo and NYC.$Israel has the third
+      highest rate of entrepreneurship in the world.$Israel was the first country
+      to ban underweight models.$Israeli banknotes have braille markings on them.$Israel
+      won the Eurovision song competition three times.The last time they won, they
+      were represented by a transgender pop star, Dana International. The only other
+      time that's happened is this year's winner, Conchita Wurst, from Austria.$Israelis
+      consume the third most amount of vegetables and sweets in the world.$Israel
+      has 137 official beaches (but only 273 km of coastline).$Motorola developed
+      the cell phone in Israel.$The first antivirus software for computers was created
+      in Israel in 1979.$Israel published more books translated from other languages
+      than any other nation in the world.
+  - levelno: 76
+    countryname: Jamaica
+    facts: "Jamaica\u2019s government is a parliamentary democracy under constitutional
+      monarchy, and their head of state is Queen Elizabeth II.$Their economy is a
+      mixed economy that focuses on agriculture, tourism, mining and manufacturing.
+      Over half of Jamaica\u2019s economy comes from tourism.$Jamaica has a thriving
+      aviation industry that focuses on manufacturing and fixing aircrafts.$There
+      are eight species of snakes that live and are indigenous to Jamaica.$Jamaicans
+      drive on the left side of the road.$Jamaica is the largest English-speaking
+      island in the Caribbean Sea.$Jamaicans eat very large breakfasts, tiny lunches
+      and huge dinners. They eat foods that are indigenous to their country, which
+      includes bananas, seafood, coffee, goat and jerk.$The country has more churches
+      per square mile than any other country in the world.$During the times of slavery,
+      many Spanish and British countries helped populate the country with freed African
+      slaves. Today, many people are dependents of these first settlers.$Jamaica is
+      an independent island country, and is considered to be a part of the British
+      Commonwealth. This means that Queen Elizabeth II is the ruler of Jamaica, however
+      they have a governor general who oversees the country.$It is tradition to bury
+      the placenta after a woman gives birth. Then, the family will plant a tree in
+      the same spot, and the tree will be known as the baby\u2019s tree.$Whenever
+      a family member dies, many families hold 9 day wakes for the deceased. For 9
+      nights the family gets together to sing, share memories and share food with
+      each other.$Blue moons occur in Jamaica whenever the weather and climate is
+      perfect. Over the past 40 years there have been 12 blue moon sightings."
+  - levelno: 77
+    countryname: Jordan
+    facts: "Jordan is an Arab kingdom in Western Asia, on the East Bank of the Jordan
+      River, with a population of over 9 million people.$Unlike other Arab countries,
+      Jordan does not have its own oil.$Jordan is one of only two Arab nations to
+      have made peace with Israel.$In Jordan, it\u2019s considered polite to refuse
+      a meal three times before accepting it.$Amman is the capital and most populous
+      city of Jordan as well as the country\u2019s economic, political and cultural
+      center.$Jordan\u2019s national flower is the Black Iris. It only grows in Wadi
+      Rum and only in spring.$Jordan is home of the ancient city of Petra, one of
+      the New 7 Wonders of The World and a UNESCO World Heritage Site.$Jordan is home
+      to many biblical sites such as the Jordan River where Jesus was baptized by
+      John the Baptist, the sinful cities of Sodom and Gomorrah, and Mount Nebo where
+      Moses died."
+  - levelno: 78
+    countryname: Kenya
+    facts: "A part of the Lake Victoria, the world\u2019s second largest freshwater
+      lake, flows through Kenya. The country shares the lake with Tanzania and Uganda.$Kenya
+      is named after Mt Kenya, the tallest mountain in the country and the second-highest
+      in Africa, after Kilimanjaro.$Interestingly, Kenya could possibly be the birthplace
+      of humans. This assumption is supported by the fact that the bones of one of
+      the earliest human ancestors ever found were discovered in Kenya.$A good portion
+      of land in Kenya is covered by a mass of water. Apart from the Indian Ocean
+      at the coast, Kenya has several lakes, both freshwater and salty. Some of these
+      lakes include Lake Victoria, Lake Nakuru, Lake Naivasha and Lake Bogoria, among
+      others."
+  - levelno: 79
+    countryname: Kiribati
+    facts: "Kiribati is susceptible to experience a rise in sea level due to global
+      warming and such a rise in the water level of the sea will cause contamination
+      of fresh water with salt water making it unsuitable for drinking. Moreover,
+      the island will become uninhabitable.$The locals of Kiribati are called I-Kiribati.
+      They pronounce \u2018ti\u2019 as \u2018s\u2019. Therefore, they pronounce \u2018Kiribati\u2019
+      as \u2018Kiribas\u2019.$The Australian dollar is the national currency of Kiribati."
+  - levelno: 80
+    countryname: Kosovo
+    facts: "On 17th February 2008, Kosovo adopted its unilateral declaration of independence
+      from Serbia, two days after Serbia\u2019s own national independence day. To
+      this day, Kosovo\u2019s declaration has been recognised by 112 countries.$Tony
+      Blair and Bill Clinton are both considered heroes in Kosovo. Pristina, the capital,
+      has both a major road named after and a 3 meter tall statue of President Bill
+      Clinton. Moreover, a number of children are given the names Toni, Bler or Tonibler
+      in honour of Tony Blair, the UK\u2019s Prime Minister at the time, for his support
+      of the 1999 NATO air campaign against the Federal Republic of Yugoslavia during
+      the Kosovo War.$The Olympic Games in Rio 2016 were the first to host athletes
+      competing under the flag of Kosovo. The Olympic Committee sent a total of eight
+      athletes, and returned with one gold medal, the first ever of the country, in
+      Judo. $More than 70% of the country\u2019s population is under the age of 35,
+      which makes it the youngest country in all of Europe. The median age of the
+      people of Kosovo is only 29.1 years."
+  - levelno: 81
+    countryname: Kuwait
+    facts: "The national flag of Kuwait \u2013 three equal horizontal bands of green
+      (top), white, and red with a black trapezoid based on the hoist side; colors
+      and design are based on the Arab Revolt flag of World War I; green represents
+      fertile fields, white stands for purity, red denotes blood on Kuwaiti swords,
+      black signifies the defeat of the enemy.$Kuwait was once a home of the shifting
+      nomads. People would come and go and never settled for the long term until the
+      18th century.$Oil reserves in the country were discovered in 1934. Kuwait\u2019s
+      oil reserves are the world\u2019s sixth largest.$The period between 1946 and
+      1982 is known as the \u201CGolden Era\u201D for Kuwait. The country became prosperous
+      during this time, achieving independence in 1961.$If a man presents a woman
+      with a gift, it cannot come from him but must come from his wife, mother, sister
+      or another female relative."
+  - levelno: 82
+    countryname: Kyrgyzstan
+    facts: "Proper nouns aren\u2019t allowed in Scrabble. But if they were, Kyrgyzstan
+      would score 30 points. Of all the countries made up of just one word, only Mozambique
+      could top it.$Kyrgyz is thought to be derived from the Turkic word for \u201Cforty\u201D
+      \u2013 a reference to the 40 clans of the great Manas. The country\u2019s flag,
+      a nod to this, features a 40-ray sun.$There are just 29.5 residents for each
+      square kilometre of land \u2013 making Kyrgyzstan one of the world\u2019s least
+      crowded countries."
+  - levelno: 83
+    countryname: Laos
+    facts: "If you speak some Thai, then you also speak some Lao. The Thai and Lao
+      languages are very closely related, so much so that Laos speakers can understand
+      Thai and vice-versa. Only a little more than 50% of the Lao population can speak
+      Lao, however \u2013 in more rural areas, people mainly speak their ethnic language.$Nong
+      Fa Lake \u2013 a crater lake high in the mountains of southeastern Laos \u2013
+      is feared and respected by locals, who refuse to swim in it. Legend has it,
+      a man-eating monster lives at the bottom. Nong Fa (which translates to \u2018blue
+      lake\u2019 or \u2018sky lake\u2019) is quite remote, and can be reached by only
+      the most intrepid explorers.$The mountains of Laos are mineral rich, and the
+      country has been mined for its resources since the 11th century. Gold, sapphire,
+      amethyst, aquamarine, marble, slate, rock salt and granite are just some of
+      the treasures to be found."
+  - levelno: 84
+    countryname: Latvia
+    facts: "Citizens of the US, UK, Canada, EU and many other countries do not require
+      a visa for visits less than 90 days. $Before Latvians were forcibly Christianized
+      by German crusaders, they followed a pagan faith. $One of the last corners of
+      Europe to join Christendom, Latvians are still very much pagans at heart. They
+      worship nature by jumping over bonfires at Midsummer Eve, and many surnames
+      are about birds, animals or trees.$Latvians are a people to look up to. Latvia
+      has the world\u2019s tallest women, with the average lady coming in at an impressive
+      170 cm. The men are no midgets either, holding fourth place."
+  - levelno: 85
+    countryname: Liberia
+    facts: "The American Colonization Society founded Liberia in 1821 as a place for
+      free African Americans to migrate to. More than 10,000 made the journey across
+      the Atlantic, aided by the society, until Liberia declared independence in 1847.
+      $Liberia is 171 years old today, but it is also one of the world\u2019s youngest
+      countries. According to the CIA World Factbook, the average age of its citizens
+      is 17.9 years. $Of the 92 countries to feature, Australia has the least polluted
+      urban areas, followed by Brunei and New Zealand, while Liberia comes 10th, ahead
+      of the likes of Spain, Japan, the US and the UK. $Liberia is among the 20 countries
+      on Earth that smoke the fewest cigarettes per capita \u2013 just 104 per adult
+      per year. Montenegro, where 4,124.53 cigarettes are smoked per adult per year,
+      according to 2014 figures from the WHO, is top of the pile, while Belarus, Macedonia,
+      Russia, Slovenia and Bosnia also make the top 10."
+  - levelno: 86
+    countryname: Libya
+    facts: "Almost all the people inhabiting Libya are Muslim, reaching 97% of the
+      population. If you wish to experience extreme heat of the sun, with surrounding
+      deserts on your background, then Libya is the perfect place to be. $It is one-sixth
+      larger than Alaska. Much of the country lies within the Sahara. Along the Mediterranean
+      coast and farther inland is arable plateau land. $Libya has undertaken one of
+      the world\u2019s biggest ever water projects, called \u2018Great Manmade River
+      Project. It is designed to carry vast quantities of sub-Saharan water to the
+      coastal regions for irrigation, industry and drinking. On completion it is expected
+      to carry five to six million cubic meters of water every day."
+  - levelno: 87
+    countryname: Liechtenstein
+    facts: "Every year on August 15, the royals of Liechtenstein celebrate the National
+      Day of the country by throwing open the doors of their castle to the public.
+      An official reception at the Vaduz Castle marks the beginning of the celebration
+      which end with feasts and fireworks.$The country\u2019s national anthem, the
+      \"Oben am jungen Rhein\u201D shares the same melody as the national anthem of
+      the UK which is \"God Save the Queen\u201D. The \u201CKongesangen\u201D which
+      is the royal anthem of Norway also has this melody.$There have been some unintentional
+      intrusions by the Swiss military into Liechtenstein\u2019s territory. On October
+      13, 1992, Swiss army cadets accidentally crossed the border between the two
+      countries to set up an observation post on Liechtenstein territory. They retreated
+      as soon as they realized their mistake.$The country lacks an airport. The nearest
+      major airport is Switzerland\u2019s Zurich Airport. Liechtenstein does, however,
+      have a heliport in Balzers."
+  - levelno: 88
+    countryname: Macedonia
+    facts: "Macedonia is the only country that got independence from Yugoslavia without
+      shedding a single drop of blood. It remained entirely at peace at the heat of
+      Yugoslav wars in the early 1990s and got independence from Yugoslavia in 1991.$The
+      country has as many as 34 mountain peaks, each with a height of more than 2,000
+      meters above the sea-level; with Mount Golem Karb being the highest at 2,753
+      meters above sea-level. Most peaks in Macedonia have never been visited by people.$The
+      Cyrillic alphabet, official in Macedonia, is based on the alphabet developed
+      in the 9th century by two Macedonian (Region) brothers \u2013 St Cyril (thus
+      \u2013 Cyrillic) and St Methodius."
+  - levelno: 89
+    countryname: Malaysia
+    facts: "Malaysia is the only country that includes territory both on the mainland
+      of Southeast Asia and in the islands that stretch between the Asian continental
+      mass and Oceania.$Malaysia\u2019s Kuala Kangsar district office is the home
+      of the last surviving rubber tree from the original batch brought by Englishman
+      H.N. Ridley from London\u2019s Kew Gardens in 1877.$Local time has been adjusted
+      in peninsular Malaysia a total of eight times. The last adjustment happened
+      on January 1, 1982, when Tun Dr. Mahathir Mohamad, then prime minister, decided
+      that the entire country would follow the time in Sabah and Sarawak. Before that,
+      both islands were 30 minutes ahead of peninsular Malaysia.$Malaysia has 40,934
+      miles (65,877 km) of highway. This is more than Earth\u2019s circumference of
+      24,901 miles (40,075 km)."
+  - levelno: 90
+    countryname: Maldives
+    facts: "For an island country like Maldives, drastic climate change and rising
+      level of oceans is a major threat. A number of islands have already been cleared
+      because of the rising waters in the ocean and their interference in fresh water
+      resources. For drawing attention towards the same, Mohamed Nasheed, The President,
+      transferred the cabinet meeting of October 2009 right to the ocean\u2019s bottom.$President
+      along with his 13 government officials adorned scuba gears and placed themselves
+      on the desks that were sunk at the sea bottom in order to increase attentiveness
+      about the threats that the island chains are facing.$The people who first colonized
+      the island, came here from India only. Though the exact date is not known, but
+      the tentative date was sometime before 269 BC.$It is said that the first real
+      kingdom here was founded by Sri Soorudasaruna Adeettiya, the son of a ruler
+      of Kalinga, a kingdom in India. The king was extremely angry from his son and
+      had sent him away to Maldives, then called Dheeva Maari. The prince established
+      Adeetta Dynasty in Maldives. Also called the Solar Dynasty, its time came to
+      an end after the wedding of the queen of this dynasty with a prince of Lunar
+      Dynasty of Kalinga."
+  - levelno: 91
+    countryname: Malta
+    facts: "The name of the island nation is supposedly derived from a Greek word
+      meaning \u201Choney.\u201D The island has an endemic species of bee, which produces
+      a unique type of honey for which the island is very well known.$Napoleon Bonaparte\u2013a
+      French military and political leader who is often considered one of the greatest
+      commanders in history\u2013also captured Malta on his way to Egypt during the
+      French Revolutionary Wars in 1798.$During World War I, Malta was also known
+      as the Nurse of the Mediterranean because a large number of wounded soldiers
+      were accommodated on the island."
+  - levelno: 92
+    countryname: Marshall
+    facts: "The Marshall Islands is made up of two archipelagic chains, with a total
+      of 29 atolls in Oceania. Each atoll is further made up of many small islets.$It
+      is a known fact that the Marshall Islands comprise two parallel island groups.
+      However, only a few people are aware of the fact that the island groups are
+      called the Ratak Chain and the Ralik Chain. The name Ratak translates to sunrise
+      and the name Ralik translates to sunset.$The Marshall Islands provides the world\u2019s
+      largest sanctuary for sharks, which virtually doubled the protected area for
+      sharks worldwide."
+  - levelno: 93
+    countryname: Mauritania
+    facts: With an area of 1,030,000 square kilometers (400,000 square miles), Mauritania
+      is the 28th largest country in the world, and the 11th largest in Africa.$Nouakchott
+      is the capital and largest city of Mauritania. It is one of the largest cities
+      in the Sahara. The city also serves as the administrative and economic centre
+      of Mauritania.$Kediet ej Jill at 915 meters (3,002 feet) above sea level is
+      the highest peak in Mauritania. The mountain and its surrounding area are rich
+      in iron deposits. Due to the magnetic field, compasses cannot function on the
+      mountain. Similar magnetic fields allowed the discovery of other deposits in
+      the region in the 1960s.
+  - levelno: 94
+    countryname: Mexico
+    facts: "The nature of Mexico is fantastic, and there are so many different species
+      and flora to be found within the Mexican border. There is also a wide ethnic
+      diversity as well as culture and food. But in terms of biological diversity,
+      Mexico is said to be home to 10% of the world\u2019s biodiversity.$When the
+      Spaniards arrived, they asked what the place was called, and the locals answered
+      \u201CYucatan\u201D. In the local language, Yucatan means \u201CI don\u2019t
+      understand you\u201D, but the Spaniards thought they replied with the name of
+      the place.$THE DAY OF THE DEAD IS WIDELY CELEBRATED. This traditional celebration
+      is made to honor the dead and celebrate them as they are believed to come alive
+      on the day of the dead. By the end of the celebrations it\u2019s also a time
+      to mourn and remember the dead, but first and most important \u2013 to celebrate
+      and honor them."
+  - levelno: 95
+    countryname: Micronesia
+    facts: "It is one of the countries with the most fascinating mix of cultures,
+      languages, and people. Micronesia is located just north of the Equator, in the
+      Northwest area of the Pacific Ocean. More than 600 islands make up the whole
+      structure of Micronesia, giving tourists lots of opportunities for adventurous
+      experiences.$Although Micronesia is composed of thousands of islands, its land
+      area is only 3,185.6 km\xB2.$The majority of the islands that form Micronesia
+      are either volcanic islands or coral atolls. Of the 600 and some islands in
+      Micronesia, a large percentage of them are formed by coral protruding above
+      the surface of the water, which over tine becomes firm enough and large enough
+      in area, to support the Micronesian lifestyle."
+  - levelno: 96
+    countryname: Moldova
+    facts: "Moldova\u2019s one of those countries that doesn\u2019t get much press,
+      though that has been changing recently with the high-profile arrest of its president
+      for corruption. It\u2019s poor and misunderstood, but is rapidly forming new
+      connections with Western Europe and is sharing its spectacular wine with the
+      world.$Moldova is located in eastern Europe. It\u2019s a land-locked country
+      that\u2019s shaped roughly like a semi-circle, with Romania to the west and
+      Ukraine to the north, east and south. Its southeastern point almost touches
+      the Black Sea.$The official language of Moldova is Romanian, and Russian is
+      also widely spoken by Moldovan people. A Turkish dialect called Gaguaz is spoken
+      in some areas."
+  - levelno: 97
+    countryname: Mongolia
+    facts: The word Mongolia is derived from the word Mong, which translates as brave.$There
+      are approximately 4.3 people per square mile, which makes it one of the sparsely
+      populated countries in the world.$The symbol on the left hand side of the flag,
+      is called Soyombo, and is a Buddhist symbol that represents the sun, moon, stars
+      and heavens.
+  - levelno: 98
+    countryname: Montenegro
+    facts: "Montenegro declared its independence from Serbia on June 3, 2006.$Montenegro
+      got its name from the dark mountain forests that cover the land. The name breaks
+      down into two words, \u2018monte\u2019 and \u2018negro\u2019 (black, mountain),
+      and dates back to the 15th century.$Lake Skadar is the largest in the Balkan
+      region, with two-thirds lying in Montenegro and the remainder in Albania."
+  - levelno: 99
+    countryname: Morocco
+    facts: "An Arabic name for Morocco, al-Magrib al-Aqsa, means \u201Cthe extreme
+      west\u201D and attests to Morocco\u2019s place as the westernmost country in
+      the Arab world.$Moroccan Berber women still have tattoos in geometric designs
+      on their faces, sometimes covering much of their forehead, cheeks, and necks.
+      These are marks of tribal identification and date from a time when it was necessary
+      to be able to spot women of one\u2019s tribe who had been carried off in raids.$White
+      is the color of mourning in Morocco. A Moroccan widow wears white for 40 days
+      after the death of her husband."
+  - levelno: 100
+    countryname: Myanmar
+    facts: "Myanmar is one of only three countries in the world that has not adopted
+      the metric system of measurement.  The other two holdouts are Liberia and the
+      United States. The Common local unit of weight in Myanmar is the peiktha, which
+      equals to 3.6 pounds.$Both men and women in Myanmar use a yellow paste from
+      the bark of the Thanakha tree as a cosmetic. Applied to the face, it is an effective
+      sunscreen that also tightens the skin and prevents oiliness.$The national currency
+      of Myanmar is the kyat (pronounced \u201Cchat\u201D). 1 U.S. dollar equals approximately
+      1031.60 kyat.$In Myanmar, You will see small children wear holy thread around
+      their neck or wrist for protection from bad spirits or spells."
+  - levelno: 101
+    countryname: Namibia
+    facts: Namibia is one of the youngest countries in the world, having achieved
+      independence from South Africa on March 21, 1990. $In 2011, approximately 1,218,234
+      overseas tourists visited Namibia, mostly from the United Kingdom, United States,
+      and Germany. $The San of Namibia are the world's oldest surviving hunter-gatherers.
+      By the age of 12, most San children are able to identify 200 species of plant,
+      while many adults can identify over 300.$Namibia's first UNESCO World Heritage
+      Site, Twyfelfontein, is home to over 2,500 cave paintings and carvings on 212
+      slabs of rock and 13 panels, some of which are almost 6,000 years old.$Himba
+      women of Namibia cover their skin with a mixture of ocher, butter, and resin
+      from omuzumba shrubs for protection from the sun, giving their skin a reddish
+      hue.$Namibia's Skeleton Coast was named due to the shipwrecks, whale bones,
+      and human skeletons in the area. The shipwrecks were caused by the dense fog
+      surrounding the coast, but many have disintegrated and washed away. Portuguese
+      sailors once referred to it as "The Gates of Hell"
+  - levelno: 102
+    countryname: Nauru
+    facts: "As a member of the Commonwealth, Naura was a logical stop on the Queen\u2019s
+      1982 tour of the South Pacific. Which puts HRH in a rather exclusive club. Only
+      around 200 tourists make it to Nauru each year, which means perhaps 15,000 living
+      souls - or 0.0002% of the global population - have been there. $Measuring just
+      eight square miles, Nauru is larger than just two other countries: the Vatican
+      City and Monaco. There really isn\u2019t room for much. Nauru has no protected
+      areas, no World Heritage Sites, no rivers, and just 30km of roads."
+  - levelno: 103
+    countryname: Nepal
+    facts: "The Nepal flag is the only national flag that is not quadrilateral in
+      shape. It is made of two triangles. The triangles are said to represent Hinduism
+      and Buddhism. They also represent the Himalayan Mountains.$Namaste is the standard
+      greeting in Nepal. It can mean Hello, Good Bye, Thank You but translates to
+      \u201CI salute the God in you.\u201D People put their palms together and then
+      bow their forehead, and say \u201CNamaste.\u201D$Nepali time is 45 minutes off
+      of the Coordinated Universal Time. The time in Nepal is based off of Mt Everest,
+      and not the time zone lines.$It is the year 2076 in Nepal. They celebrate the
+      new year on April 13th."
+  - levelno: 104
+    countryname: New_Zealand
+    facts: 'The kea, a bird native to NZ, is known for pulling windscreen wipers off
+      cars and eating the strips of rubber from windows.$In the scene of Star Trek:
+      First Contact, where we see Earth from space, Australia and Papua New Guinea
+      are clearly visible but New Zealand is missing.$Only 5% of NZ''s population
+      is human- the rest are animals.$New Zealand has more Scottish pipe bands per
+      capita than any other country in the world.'
+  - levelno: 105
+    countryname: Niue
+    facts: Niue Island's national sport is darts. $Niue Island brought 34 competitors
+      to Melbourne, nearly three per cent of their population.
+  - levelno: 106
+    countryname: North_Korea
+    facts: Pot is legal in north korea. $In the 1990s all teachers were required to
+      learn how to play accordions. Today, many citizens continue to specialize in
+      the instrument.
+  - levelno: 107
+    countryname: Norway
+    facts: "At an astonishing 15 miles (24.5 km) long, the L\xE6rdal Tunnel is the
+      world\u2019s longest. Costing 1 billion Norwegian kroner to build (that's about
+      USD 113 million) the tunnel connects the small communities of L\xE6rdal and
+      Aurland. $The Laedral tunnel design is admired all around the world, as it incorporates
+      features to help manage the mental strain on drivers. Every 6km there is a cave
+      to separate sections of road.The lighting varies throughout the tunnel and caves
+      to break routine and provide a varied view. $A little over one thousand Norwegians
+      can say they live in Hell. The small village is within walking distance of Trondheim's
+      international airport and even has its own train station. $While sushi is absolutely
+      a Japanese invention, they did not use salmon in the dish until it was suggested
+      by a Norwegian delegation in 1980's.$Everyone living in Norway has three figures
+      taken from their annual tax return published: their annual income, income tax
+      paid, and total wealth. Yes, really!"
+  - levelno: 108
+    countryname: Oman
+    facts: "There are almost NO Coca-Cola Company products while Pepsi is widely sold.
+      That is a very interesting Coca-Cola fact. $One needs a liquor licence issued
+      by the police to be able to buy alcohol in Oman. The permit\u2019s value is
+      determined by one\u2019s earnings. It is usually 10% of the basic salary.$Coffee
+      is superb in Oman and it is always served with dates. The little cups are never
+      full. Traditionally Omani people drink coffee in a thousand little sips, each
+      served separately."
+  - levelno: 109
+    countryname: Panama
+    facts: Panama's official currency is the balbao. One balboa is equal to one US
+      dollar. Despite having its own currency, all banknotes used in Panama are actually
+      American dollar notes (it is now fairly common in Central American countries
+      to have "dollarized" currencies). Panamanian balbao banknotes were produced
+      in 1941, but were withdrawn after one week.$All vessels going through Panama
+      Canal have to pay a toll. The toll is based on the type of vessel, its size
+      and its cargo. The highest toll paid was USD 376,000 by the Norweigan Pearl
+      cruise ship in 2010.
+  - levelno: 110
+    countryname: Papua_New_Guinea
+    facts: It is a place with an undeveloped tourism industry, so any visit to this
+      area will show you what the people and place are truly like. A trip to their
+      mountains will help you discover their unique flora and fauna, as well as the
+      tribal culture of painted and masked men.
+  - levelno: 111
+    countryname: Philippines
+    facts: "Located on the western edge of the Pacific\u2019s Ring of Fire, the Philippines
+      has hundreds of volcanoes and an average of 20 earthquakes per day (most so
+      faint they can\u2019t be felt). The three most active volcanoes are Mount Pinatubo,
+      the Taal Volcano, and the Mayon Volcano.$As part of the settlement of the Spanish-American
+      war, Spain cedes the Philippines to the United States in 1898. The U.S. begins
+      to incorporate the islands\u2019 Muslim areas by force. $Though officially the
+      Philippines are a secular state, Christianity is the dominant faith and over
+      80 percent of the population is Catholic. "
+  - levelno: 112
+    countryname: Rwanda
+    facts: Rwanda is also known as the Land of a Thousand Hills because most of the
+      country is covered by rolling, grassy hills. $Rwanda is one of the smallest
+      nations on Earth with size of 26 338 square kilometers.
+  - levelno: 113
+    countryname: Saint_Kitts_And_Nevis
+    facts: "Basseterre has a modern stadium, Warner Park, which gets packed out whenever
+      there\u2019s any sporting action to be seen. International matches featuring
+      the West Indies are the biggest occasions. But the nation also has its own team,
+      the St. Kitts and Nevis Patriots, who play in the Caribbean Premier League.$Like
+      many of its neighbours, St. Kitts was formed by volcanoes, all of which are
+      now dormant. The tallest is the 3,792ft Mount Liamuiga, which is thought to
+      have last erupted some 200 years ago. Energetic visitors can hike through pristine
+      tropical forest to its summit, a mile-wide volcanic crater known as the \u201CGiant\u2019s
+      Salad Bowl\u201D."
+  - levelno: 114
+    countryname: Saint_Lucia
+    facts: "Saint Lucia is the world\u2019s only country named after a woman."
+  - levelno: 115
+    countryname: Saint_Vincent_And_The_Grenadines
+    facts: "Due to the island\u2019s volcanic origin, most of St Vincent beaches are
+      black sand with two notable exceptions at Villa and Indian Bay, where many hotels
+      are located. Classic white sand beaches, are located in the Grenadines such
+      as Union Island, Canouan, Mustique and Bequia."
+  - levelno: 116
+    countryname: Samoa
+    facts: "Samoa has its own Ancient Pyramid. The Pulemelei Mound or Star Pyramid
+      and is situated on the Island of Savai\u2019i.$Most of the Samooan Islands are
+      very colorful. Mountain slopes dip into fertile valleys. Rich forests and flat
+      lands slope gently toward the sea.$Samoa was the first Pacific island country
+      to attain independence."
+  - levelno: 117
+    countryname: Sao_Tome_And_Principe
+    facts: "S\xE3o Tom\xE9 and Pr\xEDncipe has many beautiful beaches. On the south
+      edge of the S\xE3o Tom\xE9 Island you will find Praia Jal\xE9, a relatively
+      safe beach. Behold the wonder as giant sea turtles climb up in the morning hours
+      to lay their eggs in the sand. You can spend the night on the beach in small
+      huts without electricity."
+  - levelno: 118
+    countryname: Senegal
+    facts: "In the 16th century when the Portuguese visited the country\u2019s coast,
+      the fishermen said \u201Csunu gaal\u201D, which translates into \u201Cthese
+      are our boats\u201D. The Portuguese, who understood nothing, simply named their
+      land \u201CSenegal\u201D. Classic colonizers!!"
+  - levelno: 119
+    countryname: Seychelles
+    facts: "Some of the rarest species of birds can be found in Seychelles, including
+      the bare-legged Scops Owl or Syer. This specific owl is so rare it was once
+      thought to have become extinct, but was rediscovered in 1959. You can find it
+      at the Morne Seychellois National Park on Mah\xE9 Island."
+  - levelno: 120
+    countryname: Singapore
+    facts: "In Singapore, parents teach their kids good manners while the government
+      teaches the parents some. Singapore actually had a government-backed National
+      Courtesy Campaign, since 1979, where Singaporeans were taught ethics and mannerisms.
+      However, in 2001, it changed to the Singapore Kindness Movement.$when Singapore
+      plants trees, it plants them in style. The government opened up a series of
+      manmade solar-powered trees, up to 50 meters high, in the \u2018Gardens at the
+      Bay\u2019 project. It is now a cultural symbol and a tourist hotspot.$More than
+      80% of Singapore\u2019s population lives in government-subsidized houses while
+      the home ownership rate in Singapore is a staggering 92% (The highest in the
+      world)."
+  - levelno: 121
+    countryname: Slovakia
+    facts: Slovakia has an incredible number of 180 castles and 425 chateaux in a
+      country with the entire population far smaller than the city of New York.$The
+      capital of Slovakia, Bratislava, lies on the borders with Austria and Hungary.
+      That makes the city the only one capital in the world that borders two independent
+      countries.
+  - levelno: 122
+    countryname: Slovenia
+    facts: Over 56% of the Slovenian territory is covered in woods, which places Slovenia
+      among 3 most wooded countries in Europe.
+  - levelno: 123
+    countryname: Solomon_Islands
+    facts: The Solomon Islands is a fantastic natural feature with a cone shape that
+      amazes the eyes with wonders. On it, Mataniko falls, and the lagoons will keep
+      you fixed. The largest salty lagoon in the world is found here.
+  - levelno: 124
+    countryname: South_Africa
+    facts: The longest continuous wine route on earth is found in South Africa.$South
+      Africa is the only country in the world where right-hand drive cars are produced
+      by Mercedes Benz.$Boulders Beach, Cape Town, is where you can swim with colonies
+      of Jackass penguins.
+  - levelno: 125
+    countryname: South_Korea
+    facts: "Approximately 90% of the world\u2019s seaweed used for consumption (think
+      sushi) comes from South Korea. $South Korea is known as the world\u2019s capital
+      of plastic surgery. $Mandatory military service of 21 to 24 months is required
+      for South Koreans."
+  - levelno: 126
+    countryname: South_Sudan
+    facts: The country relies on donations and aid from developed countries (including
+      the UK, US, Norway, and the Netherlands) to supplement the budget and also to
+      avail basic needs to some of the citizens. $In June 2016, 309% inflation was
+      recorded in South Sudan, which is one of the highest in the world.
+  - levelno: 127
+    countryname: Sri_Lanka
+    facts: "Sri Lanka finds its earliest mention in the Hindu mythological epic Ramayana.
+      It is referred as \u2018Lanka\u2019 the kingdom of king Ravana.$Legendary Prince
+      Vijaya who reigned Sri Lanka from 543\u2013505 BCE named it as Tambapanni. He
+      was the first recorded king and is mentioned in the Mahavamsa and the Pali chronicles.$Ancient
+      Greek geographers called it Taproban\u0101 and Persians and Arabs called it
+      as Sarandib.$In Tamil, it is known as Eelam.$Sri Lanka is often known as the
+      \u2018Pearl of the Indian Ocean\u2019 and \u2018Teardrop of India\u2019 due
+      to its shape."
+  - levelno: 128
+    countryname: Suriname
+    facts: Suriname's largest ethnic group is Hindustani, which makes up around thirty-seven
+      percent of the population, which was established following a large-scale immigration
+      from Asia to this part of South America in the nineteenth century. The population
+      of 490,000 people also has significant populations of Creole, Javanese, and
+      Maroons.
+  - levelno: 129
+    countryname: Switzerland
+    facts: The country's main exports include chemicals, chocolate, watches, and engineering
+      products. Their main imports include food products, textiles and machinery.
+      Switzerland has established trading networks with Germany, the United States,
+      Italy and France.$The Swiss have a median income level of 100,000 US dollars,
+      which has continued to grow exponentially over the past few years.
+  - levelno: 130
+    countryname: Syria
+    facts: Syria is a founding member of the United Nations.$The largest lake in Syria,
+      Lake Assad, is actually man-made and has only existed since 1968 (maximum capacity
+      of 11.7 cubic kilometers, the maximum surface area of 610 square kilometers.)
+  - levelno: 131
+    countryname: Taiwan
+    facts: Taiwan boasts the largest collection of Chinese art in the world.$Before
+      the Portuguese discovered Taiwan in 1590, the Chinese referred to the island
+      as "a mudball across the sea, not worthy of China."
+  - levelno: 132
+    countryname: Tajikistan
+    facts: In the small Asian nation of Tajikistan, the unibrow is considered a highly
+      attractive feature in women. If you are unfortunately born without a unibrow,
+      you can paint it on daily to become more attractive.
+  - levelno: 133
+    countryname: Tanzania
+    facts: In 2015 the Tanzanian government made an announcement that it will stop
+      the policy of using English as a language of education. Classes will only be
+      taught in Swahili.$The median age in Tanzania is 17.7 years old.
+  - levelno: 134
+    countryname: Togo
+    facts: In 1884, Germany declared a region including present-day Togo as a protectorate
+      called Togoland. After World War I, rule over Togo was transferred to France.
+      Togo gained its independence from France in 1960.
+  - levelno: 135
+    countryname: Tonga
+    facts: Migrating humpback whales bear their young and breed in Tongan waters from
+      June to November. Flying foxes and small bats are the only land mammals native
+      to Tonga.
+  - levelno: 136
+    countryname: Trinidad_And_Tobago
+    facts: Tobago only has 6% of the total area and 4% of the total population of
+      this dual-island nation. $Trinidad was named by Christopher Columbus on his
+      third voyage to the New World in 1498.
+  - levelno: 137
+    countryname: Tunisia
+    facts: Tunisia has a highly homogeneous population, almost entirely of Arab and
+      Berber descent (98%). The small European population (1%) consists mostly of
+      French and Italians.
+  - levelno: 138
+    countryname: Tuvalu
+    facts: During the 2nd world war, the islands was a strategic location for the
+      American troops because the nearby islands of Kiribati in the Pacific were occupied
+      by the Japanese troops. For this reason you can find World War II artefacts
+      in parts of the Tuvalu Islands.
+  - levelno: 139
+    countryname: Uganda
+    facts: The endangered mountain gorilla resides in the Ruwenzori Mountains of Uganda.$Grasshoppers
+      that have been pan fried are a delicacy consumed in Uganda.
+  - levelno: 140
+    countryname: Uae
+    facts: "No mention of the UAE is complete without talking about the tallest building
+      in the world\u2014the Burj Khalifa. It stands over 828 meters, with more than
+      160 stories. That\u2019s about three Eiffel Towers standing atop each other!
+      It takes more than 36 workers three months to clean its glass facade.$The week
+      starts on Sunday! While most of you are still cozy in their beds on Sunday mornings,
+      kids in the UAE have to go to school and their parents head off to work.$Anything
+      is possible in Dubai, even a real dinosaur fossil in the heart of a mall! The
+      Dubai Dino is a 155-million-year-old fossil of the Diplodocus Longus is permanently
+      on display at Dubai Mall. In fact, it is one of the few fossils in the world
+      with almost all original bones intact."
+  - levelno: 141
+    countryname: United_Kingdom
+    facts: "The accent of the UK changes noticeably every 25 miles.$In the UK, it
+      is illegal for anyone to die in the Houses of Parliament.$In the UK, you can
+      rent mourners to fill your funeral. The service is referred to as \u201CRent
+      a Mourner\u201D service."
+  - levelno: 142
+    countryname: Usa
+    facts: "GPS IS CONTROLLED AND OWNED BY THE AMERICAN GOVERNMENT AND CAN BE \u2018SWITCHED
+      OFF\u2019 AT ANY TIME.$THE CURRENT FLAG OF THE USA WAS DESIGNED BY A 17-YEAR-OLD.
+      His name was Robert G. Heft and he did it as a school project. He originally
+      received a B\u2013 for the project, but he was later awarded an A after the
+      flag was accepted by the Congress."
+  - levelno: 143
+    countryname: Uzbekistan
+    facts: Due to its location within a series of endorheic basins, none of its rivers
+      lead to the sea. Less than 10% of its territory is intensively cultivated irrigated
+      land in river valleys and oases. The rest is vast desert (Kyzyl Kum) and mountains.
+  - levelno: 144
+    countryname: Venezuela
+    facts: Women from Venezuela have won Miss Universe six times and Miss World five
+      times.
+  - levelno: 145
+    countryname: Vietnam
+    facts: Motorbikes are very popular in Vietman. In 2013, there were 37 million
+      registered motorbikes, compared to just two million registered cars.$Many people
+      opt to not own a car because it is reserved for those who are very wealthy.
+      Vehicle taxes are between 100% and 200%, making motorbikes and other modes of
+      transportation far more affordable for the average citizen.
+  - levelno: 146
+    countryname: Zambia
+    facts: "The entire country\u2019s telephone directory is not even one inch thick.$Lake
+      Kariba is so huge that in certain parts of it, unknowing visitors think they
+      are looking at the ocean."
+  - levelno: 147
+    countryname: Zimbabwe
+    facts: "Multi-currency \u2013 Zimbabwe is the world\u2019s largest Bureau de Change.
+      You can buy a loaf of bread that\u2019s priced at R10 (South African Rands),
+      pay with Euros, and receive your change in US Dollars, Pula, AND Rands. Every
+      Zimbabwean is basically a walking currency converter!"

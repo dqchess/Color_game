@@ -70,7 +70,9 @@ public class LevelManager : MonoBehaviour
 
     private int GetLevelToLoad()
     {
-        int level = 0;
+        
+        int level = 60;
+        //return level;
         if (mode == "BEGINNER")
             level = PlayerPrefs.GetInt("LastBeginnerLevelCracked");
         if (mode == "CHALLENGE")
@@ -297,6 +299,21 @@ public class LevelManager : MonoBehaviour
 
     public string GetCountryForLevel(int level)
     {
+        if (level > 62) {
+
+            // Use LINQ to find the country fact
+            FactsData[] factsArray = country_facts.dataArray;
+            FactsData fact = factsArray.Where(s => s.Levelno ==level).FirstOrDefault();
+            //       dyk_country_description.GetComponent<Text>().text = fact.Facts;
+
+
+
+            string country_name = fact.Countryname;
+            Debug.Log("Country Selected:" + country_name);
+            return country_name;
+
+        }
+
         switch (level)
         {
             case 1: return "Botswana";
