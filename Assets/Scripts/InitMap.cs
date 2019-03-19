@@ -81,6 +81,11 @@ public class InitMap : MonoBehaviour {
         Graphics.CopyTexture(TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite), Initial_Texture);
         Initial_Texture.Apply();
 
+        if(levelmgr.GetCurrentLevel() == 67)
+        {
+            min_matching_percentage = 15;
+        }
+
     }
     public void Reset()
     {
