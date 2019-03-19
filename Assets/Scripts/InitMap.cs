@@ -10,7 +10,7 @@ public class InitMap : MonoBehaviour {
     public GameObject editable_map;
     public int min_pixels_per_color;
     public int min_matching_percentage;
-
+    LevelManager levelmgr;
     public Sprite Initial_State;
     private Texture2D Initial_Texture;
 
@@ -72,7 +72,7 @@ public class InitMap : MonoBehaviour {
     public void Init(){
         original_map.SetActive(false);
         editable_map.SetActive(true);
-        LevelManager levelmgr = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+         levelmgr = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         GameObject.Find("CountryName").GetComponent<Text>().text = levelmgr.GetCountryForLevel(levelmgr.GetCurrentLevel());
         SetColorButtons();
 
@@ -81,15 +81,7 @@ public class InitMap : MonoBehaviour {
         Graphics.CopyTexture(TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite), Initial_Texture);
         Initial_Texture.Apply();
 
-        if(levelmgr.GetCurrentLevel() == 67)
-        {
-            min_matching_percentage = 15; //Eritrea
-        }
-        if (levelmgr.GetCurrentLevel() == 69)
-        {
-            min_matching_percentage = 8; //Greeece
-        }
-
+      
     }
     public void Reset()
     {
@@ -98,12 +90,35 @@ public class InitMap : MonoBehaviour {
         Initial_Texture.Apply();
     }
 
+    void resetThreshold()
+    {
+        if (levelmgr.GetCurrentLevel() == 67)
+        {
+            min_matching_percentage = 15; //Eritrea
+        }
+        if (levelmgr.GetCurrentLevel() == 69)
+        {
+            min_matching_percentage = 8; //Greeece
+        }
+        if (levelmgr.GetCurrentLevel() == 70)
+        {
+            min_matching_percentage = 8; //Guyana
+        }
+        if (levelmgr.GetCurrentLevel() == 73)
+        {
+            min_matching_percentage = 10; //Iran
+        }
+    }
     public  bool AreImagesMatching(Texture2D current_texture)
     {
+
         Texture2D t1 = TextureExtension.textureFromSprite(original_map.GetComponent<Image>().sprite);
         //Texture2D t2 = TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite);
 
-        return (TextureExtension.AreTexturesSameByColor(t1, current_texture, min_matching_percentage));
+        float match_percentage;
+        bool matching = TextureExtension.AreTexturesSameByColor(t1, current_texture, min_matching_percentage, out match_percentage);
+        levelmgr.UpdateMatchPercentage(match_percentage);
+        return matching;
         
     }
 

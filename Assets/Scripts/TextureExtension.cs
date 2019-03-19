@@ -212,7 +212,7 @@ public static class TextureExtension
         aTex.SetPixels(colors);
     }
 
-    public static bool AreTexturesSameByColor(Texture2D t1, Texture2D t2,int threshold_percentage)
+    public static bool AreTexturesSameByColor(Texture2D t1, Texture2D t2,int threshold_percentage, out float differing_percentage)
     {
         Color32[] colors1 = t1.GetPixels32();
         Color32[] colors2 = t2.GetPixels32();
@@ -233,20 +233,23 @@ public static class TextureExtension
                 diff_pixels++;
                 if (diff_pixels > threshold_pixels)
                 {
-                    Debug.Log(diff_pixels + " pixels differ, threshold: " + threshold_pixels);
-                    return false; //No need to process further pixels
+                    
                 }
 
             }
             
         }
+        differing_percentage = (colors1.Length - diff_pixels) * 100 / colors1.Length;
+
         if (diff_pixels < threshold_pixels)
         {
             Debug.Log("Images match, only " + diff_pixels + " differ threshold: " + threshold_pixels);
+         
             return true;
         }
             
         else
+            Debug.Log(diff_pixels + " pixels differ, threshold: " + threshold_pixels);
             return false;
     }
 

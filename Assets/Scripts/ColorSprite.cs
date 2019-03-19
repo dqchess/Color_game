@@ -47,7 +47,7 @@ public class ColorSprite : MonoBehaviour {
         var color = btn.GetComponent<Image>().color;
         ColorSprite.current_color = color;
         print(button.name);
-        Debug.Log("Object clicked " + ColorSprite.current_color);
+        //Debug.Log("Object clicked " + ColorSprite.current_color);
     }
 
 

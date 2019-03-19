@@ -41,6 +41,15 @@ public class LevelManager : MonoBehaviour
 
     public Facts country_facts;
 
+    public Image progressBar;
+
+    public void UpdateMatchPercentage(float percentage)
+    {
+        Debug.Log("Setting Fill Percentage: " + percentage);
+        progressBar.fillAmount = percentage / 100f; ;
+    }
+
+
     public void setDyKInfo()
     {
 
@@ -173,6 +182,7 @@ public class LevelManager : MonoBehaviour
 
     void Load_level(int level)
     {
+        UpdateMatchPercentage(0);
         if (current_level > max_level)
         {
             current_level = 1;
@@ -196,16 +206,13 @@ public class LevelManager : MonoBehaviour
 
         }
         if (mode == "CHALLENGE")
-            if (Application.platform == RuntimePlatform.Android)
-                PlayerPrefs.SetInt("LastChallengeLevelCracked", level);
-        if (Application.platform == RuntimePlatform.Android)
-        {
-            if (mode == "EXPERT")
-                PlayerPrefs.SetInt("LastExpertLevelCracked", level);
-        }
+             PlayerPrefs.SetInt("LastChallengeLevelCracked", level);
 
-        else if (Application.platform == RuntimePlatform.IPhonePlayer)
-            Debug.Log("Not supporeted in this mode on IOS");
+       if (mode == "EXPERT")
+            PlayerPrefs.SetInt("LastExpertLevelCracked", level);
+
+
+
 
         //Replace sprites
         //original image
