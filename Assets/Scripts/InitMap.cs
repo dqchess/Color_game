@@ -115,6 +115,7 @@ public class InitMap : MonoBehaviour {
         Texture2D t1 = TextureExtension.textureFromSprite(original_map.GetComponent<Image>().sprite);
         //Texture2D t2 = TextureExtension.textureFromSprite(editable_map.GetComponent<Image>().sprite);
 
+        resetThreshold();
         float match_percentage;
         bool matching = TextureExtension.AreTexturesSameByColor(t1, current_texture, min_matching_percentage, out match_percentage);
         levelmgr.UpdateMatchPercentage(match_percentage);
