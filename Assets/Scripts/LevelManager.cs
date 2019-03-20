@@ -63,10 +63,10 @@ public class LevelManager : MonoBehaviour
         // Use LINQ to find the country fact
         FactsData[] factsArray = country_facts.dataArray;
         FactsData fact = factsArray.Where(s => s.Countryname == GetCountryForLevel(current_level)).FirstOrDefault();
-      //       dyk_country_description.GetComponent<Text>().text = fact.Facts;
+        //       dyk_country_description.GetComponent<Text>().text = fact.Facts;
 
 
-
+        Debug.Log("Fact:" + fact);
         List<string> fact_list  = fact.Facts.Split('$').ToList();
         string current_fact_toshow = fact_list[Random.Range(0, fact_list.Count)];
         dyk_country_description.GetComponent<Text>().text = current_fact_toshow;
@@ -82,7 +82,8 @@ public class LevelManager : MonoBehaviour
     private int GetLevelToLoad()
     {
          
-        int level = 67;
+        int level = 12;
+        return level;
         if (mode == "BEGINNER")
             level = PlayerPrefs.GetInt("LastBeginnerLevelCracked");
         if (mode == "CHALLENGE")
@@ -336,7 +337,7 @@ public class LevelManager : MonoBehaviour
             case 10: return "Algeria";
             case 11: return "Bolivia";
             case 12: return "Ukrain";
-            case 13: return "Burkina_faso";
+            case 13: return "Burkina_Faso";
             case 14: return "Cameroon";
             case 15: return "Chad";
             case 16: return "Chile";
