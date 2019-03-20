@@ -83,7 +83,6 @@ public class LevelManager : MonoBehaviour
     {
          
         int level = 67;
-        return level;
         if (mode == "BEGINNER")
             level = PlayerPrefs.GetInt("LastBeginnerLevelCracked");
         if (mode == "CHALLENGE")

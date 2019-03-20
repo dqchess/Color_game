@@ -96,18 +96,23 @@ public class InitMap : MonoBehaviour {
         {
             min_matching_percentage = 15; //Eritrea
         }
+        else
         if (levelmgr.GetCurrentLevel() == 69)
         {
             min_matching_percentage = 8; //Greeece
         }
+        else
         if (levelmgr.GetCurrentLevel() == 70)
         {
             min_matching_percentage = 8; //Guyana
         }
+        else
         if (levelmgr.GetCurrentLevel() == 73)
         {
             min_matching_percentage = 10; //Iran
         }
+        else
+            min_matching_percentage = 5;
     }
     public  bool AreImagesMatching(Texture2D current_texture)
     {
