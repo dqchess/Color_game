@@ -43,7 +43,6 @@
 		35514D2EB8B86B0C53C15614 /* Il2CppCompilerCalculateTypeValues_21Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 52044D0F98CA8A1CAF63DFC6 /* Il2CppCompilerCalculateTypeValues_21Table.cpp */; };
 		357E4D17813488245C8DF9A0 /* UnresolvedVirtualCallStubs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E994AB28F1FD11D6F1F9B44 /* UnresolvedVirtualCallStubs.cpp */; };
 		37A34871ACFA620D6C4F59FA /* Bulk_mscorlib_13.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FC0D44F0A619F5DD0C75A01E /* Bulk_mscorlib_13.cpp */; };
-		3DB14E20A423FC9F9B986D82 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467748C1BAB7F59B540E276F /* StoreKit.framework */; };
 		416E435B80F662D9176DF015 /* GADURequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D88F4A7DB4E4E736281FCFAC /* GADURequest.m */; };
 		418241F3A1A3EA510C9D2364 /* UnityICallRegistration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8CE7494E9DE08FB2DCAB0950 /* UnityICallRegistration.cpp */; };
 		419E4188A18FE97CCF463899 /* Bulk_Mono.Security_1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 336F438EA37EFA1B8CFF990F /* Bulk_Mono.Security_1.cpp */; };
@@ -81,6 +80,7 @@
 		68F3493DBE3D61E5604E8664 /* Bulk_mscorlib_7.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A99C40C09EE9DBE8964A868B /* Bulk_mscorlib_7.cpp */; };
 		69F340FC8C6F2692BB54FDE7 /* Il2CppCompilerCalculateTypeValues_8Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 441943B6849859C74F428481 /* Il2CppCompilerCalculateTypeValues_8Table.cpp */; };
 		6A0B403C8C330D8E631F9015 /* Bulk_UnityEngine.IMGUIModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73C44D5EBBC8F8D256806A8C /* Bulk_UnityEngine.IMGUIModule_0.cpp */; };
+		6AD9459AB68396E30525D214 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 467748C1BAB7F59B540E276F /* StoreKit.framework */; };
 		6C414A7D8A9BE8B88E53241E /* Il2CppCompilerCalculateTypeValues_9Table.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55C54C9798F74D3D05ED2FBE /* Il2CppCompilerCalculateTypeValues_9Table.cpp */; };
 		6C7F4FAD974D8D19944E5472 /* libil2cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA9C4BC1990755CBF67672ED /* libil2cpp.a */; };
 		6ECB4F298F2B74CBB1FE10B3 /* Bulk_UnityEngine.Physics2DModule_0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0D75481F8F667BD737548DB9 /* Bulk_UnityEngine.Physics2DModule_0.cpp */; };
@@ -562,7 +562,7 @@
 				63618453686475883D1D60DD /* libPods-Unity-iPhone.a in Frameworks */,
 				D4C74E358F20A9DF41C6DF90 /* libz.dylib in Frameworks */,
 				4C774BE2A8DADE7C49F109DA /* libc++.dylib in Frameworks */,
-				3DB14E20A423FC9F9B986D82 /* StoreKit.framework in Frameworks */,
+				6AD9459AB68396E30525D214 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,6 +1039,18 @@
 				2D59BA06186A42D992663932 /* ShellScript */,
 				5CBA4D64902A2276E6B9F933 /* ShellScript */,
 				5B934C41BD8A09523FF438D1 /* ShellScript */,
+				9CF941ACA0B52263C8B0B312 /* ShellScript */,
+				D84A4C53965A6AB27B367E6D /* ShellScript */,
+				24F541E1A95130D4CBBFB4F3 /* ShellScript */,
+				63BD4F2FBC64BB72EDDC49E1 /* ShellScript */,
+				02D948EEAC83678C02369FE2 /* ShellScript */,
+				15D74D66A03B849FFB4A057D /* ShellScript */,
+				77B5453DBF75C3CF9BEA2C95 /* ShellScript */,
+				DC214E53A9C36D58D004D575 /* ShellScript */,
+				07524E25AD92617D02BBBBD3 /* ShellScript */,
+				5C94472EB8FD9A2DB87E493E /* ShellScript */,
+				E9314950A4425B080A280A74 /* ShellScript */,
+				76A649F0BAE58A4C337F1D94 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -1139,6 +1151,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		02D948EEAC83678C02369FE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
 		033966F41B18B03000ECD701 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1151,6 +1173,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/MapFileParser.sh\"\n";
+		};
+		07524E25AD92617D02BBBBD3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
+		15D74D66A03B849FFB4A057D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
+		24F541E1A95130D4CBBFB4F3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
 		};
 		2D59BA06186A42D992663932 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1175,6 +1227,16 @@
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
 		};
+		5C94472EB8FD9A2DB87E493E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
 		5CBA4D64902A2276E6B9F933 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1184,6 +1246,16 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"\n";
+		};
+		63BD4F2FBC64BB72EDDC49E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
 		};
 		6FEE6666570089DD6C5FBDDB /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1207,6 +1279,36 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		76A649F0BAE58A4C337F1D94 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
+		77B5453DBF75C3CF9BEA2C95 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
+		9CF941ACA0B52263C8B0B312 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
 		C0EB49B68DF7F4AA4FD247BE /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1216,6 +1318,36 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"\n";
+		};
+		D84A4C53965A6AB27B367E6D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
+		DC214E53A9C36D58D004D575 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
+		};
+		E9314950A4425B080A280A74 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Process symbols";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PROJECT_DIR/process_symbols.sh\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1503,7 +1635,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -1581,7 +1713,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;
@@ -1639,7 +1771,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -1706,7 +1838,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -1730,7 +1862,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -1808,7 +1940,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForRunning;
@@ -1866,7 +1998,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -1891,7 +2023,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -1969,7 +2101,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = ReleaseForProfiling;
@@ -2027,7 +2159,7 @@
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
 				UNITY_RUNTIME_VERSION = 2018.3.0f2;
 				UNITY_SCRIPTING_BACKEND = il2cpp;
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = xctest;
@@ -2054,7 +2186,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = Debug;
@@ -2077,7 +2209,7 @@
 				SDKROOT = iphoneos;
 				SUPPORTED_PLATFORMS = iphoneos;
 				UNITY_CLOUD_PROJECT_ID = "fc2bda4f-14d3-4d6c-bf66-f07932cc82a0";
-				USYM_UPLOAD_AUTH_TOKEN = bbb6da55695240500f37c80fefab3edf5d0622c933cb6ef93c6e4c3b43e4ca67;
+				USYM_UPLOAD_AUTH_TOKEN = 7d4cbdcb2e05a94b4ffc499fac9dd563ad818de49ef53ef0f711f6ab3a5dbffe;
 				USYM_UPLOAD_URL_SOURCE = "https://a:b@perf-events.cloud.unity3d.com/url";
 			};
 			name = Release;

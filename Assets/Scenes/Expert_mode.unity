@@ -6184,7 +6184,7 @@ MonoBehaviour:
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
-    m_VerticalOverflow: 1
+    m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'The Sahara Desert covers 90% of the land and with some of the hottest temperatures
     ever recorded, it is not suitable for occupation. As a result of this, only 12%

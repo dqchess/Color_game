@@ -44,7 +44,7 @@ public class LevelManager : MonoBehaviour
     public Image progressBar;
     public Text progressBarText;
 
-    public void UpdateMatchPercentage(float percentage)
+    public void UpdateMatchPercentage(float percentage) // Check if the flag is being colored right or not
     {
         Debug.Log("Setting Fill Percentage: " + percentage);
         progressBar.fillAmount = percentage / 100f; ;
@@ -82,7 +82,7 @@ public class LevelManager : MonoBehaviour
     private int GetLevelToLoad()
     {
          
-        int level = 67;
+        int level = 50;
         return level;
         if (mode == "BEGINNER")
             level = PlayerPrefs.GetInt("LastBeginnerLevelCracked");

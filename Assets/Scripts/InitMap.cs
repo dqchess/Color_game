@@ -108,6 +108,24 @@ public class InitMap : MonoBehaviour {
         {
             min_matching_percentage = 10; //Iran
         }
+        if (levelmgr.GetCurrentLevel() == 79)
+        {
+            min_matching_percentage = 10; //Kribati
+        }
+        if (levelmgr.GetCurrentLevel() == 82)
+        {
+            min_matching_percentage = 15; //kyrgyzstan
+        }
+        if (levelmgr.GetCurrentLevel() == 105)
+        {
+            min_matching_percentage = 10; //Niue
+        }
+        if (levelmgr.GetCurrentLevel() == 127)
+        {
+            min_matching_percentage = 15; //Srilanka
+        }
+
+
     }
     public  bool AreImagesMatching(Texture2D current_texture)
     {
