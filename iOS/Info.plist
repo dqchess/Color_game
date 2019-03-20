@@ -121,6 +121,66 @@
           <key>KitName</key>
           <string>Crashlytics</string>
         </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
+        <dict>
+          <key>KitInfo</key>
+          <dict />
+          <key>KitName</key>
+          <string>Crashlytics</string>
+        </dict>
       </array>
     </dict>
     <key>LSRequiresIPhoneOS</key>

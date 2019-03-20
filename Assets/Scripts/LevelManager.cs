@@ -82,7 +82,8 @@ public class LevelManager : MonoBehaviour
     private int GetLevelToLoad()
     {
          
-        int level = 67;
+        int level = 1;
+        //return level;
         if (mode == "BEGINNER")
             level = PlayerPrefs.GetInt("LastBeginnerLevelCracked");
         if (mode == "CHALLENGE")
@@ -336,14 +337,14 @@ public class LevelManager : MonoBehaviour
             case 10: return "Algeria";
             case 11: return "Bolivia";
             case 12: return "Ukrain";
-            case 13: return "Burkina_faso";
+            case 13: return "Burkina_Faso";
             case 14: return "Cameroon";
             case 15: return "Chad";
             case 16: return "Chile";
             case 17: return "Colombia";
             case 18: return "Congo_Republic";
             case 19: return "Costa_Rica";
-            case 20: return "Cote_d_Ivoire";
+            case 20: return "Cote_D_Ivoire";
             case 21: return "Czech_Republic";
             case 22: return "Denmark";
             case 23: return "Estonia";

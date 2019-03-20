@@ -132,7 +132,17 @@ public class InitMap : MonoBehaviour {
             min_matching_percentage = 15; //Srilanka
         }
         else
-            min_matching_percentage = 5;
+        if (levelmgr.GetCurrentLevel() == 68)
+        {
+            min_matching_percentage = 10; //Ethipia
+        }
+        else
+        if (levelmgr.GetCurrentLevel() == 85)
+        {
+            min_matching_percentage = 10; //Liberia
+        }
+        else
+            min_matching_percentage = 8;
     }
     public  bool AreImagesMatching(Texture2D current_texture)
     {
