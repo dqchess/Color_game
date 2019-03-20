@@ -96,36 +96,43 @@ public class InitMap : MonoBehaviour {
         {
             min_matching_percentage = 15; //Eritrea
         }
+        else
         if (levelmgr.GetCurrentLevel() == 69)
         {
             min_matching_percentage = 8; //Greeece
         }
+        else
         if (levelmgr.GetCurrentLevel() == 70)
         {
             min_matching_percentage = 8; //Guyana
         }
+        else
         if (levelmgr.GetCurrentLevel() == 73)
         {
             min_matching_percentage = 10; //Iran
         }
+        else
         if (levelmgr.GetCurrentLevel() == 79)
         {
             min_matching_percentage = 10; //Kribati
         }
+        else
         if (levelmgr.GetCurrentLevel() == 82)
         {
             min_matching_percentage = 15; //kyrgyzstan
         }
+        else
         if (levelmgr.GetCurrentLevel() == 105)
         {
             min_matching_percentage = 10; //Niue
         }
+        else
         if (levelmgr.GetCurrentLevel() == 127)
         {
             min_matching_percentage = 15; //Srilanka
         }
-
-
+        else
+            min_matching_percentage = 5;
     }
     public  bool AreImagesMatching(Texture2D current_texture)
     {
