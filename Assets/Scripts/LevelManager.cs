@@ -350,7 +350,7 @@ public class LevelManager : MonoBehaviour
             case 17: return "Colombia";
             case 18: return "Congo_Republic";
             case 19: return "Costa_Rica";
-            case 20: return "Cote_d_Ivoire";
+            case 20: return "Cote_D_Ivoire";
             case 21: return "Czech_Republic";
             case 22: return "Denmark";
             case 23: return "Estonia";
