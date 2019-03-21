@@ -4,10 +4,10 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PinchZoomScrollRect : ScrollRect
 {
-    [SerializeField] float _minZoom = .1f;
-    [SerializeField] float _maxZoom = 10;
-    [SerializeField] float _zoomLerpSpeed = 10f;
-    float _currentZoom = 1;
+    [SerializeField] float _minZoom = 0.9f;
+    [SerializeField] float _maxZoom = 3f;
+    [SerializeField] float _zoomLerpSpeed = 4f;
+    public float _currentZoom = 1;
     bool _isPinching = false;
     float _startPinchDist;
     float _startPinchZoom;

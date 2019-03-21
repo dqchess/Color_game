@@ -51,6 +51,11 @@ public class LevelManager : MonoBehaviour
         progressBarText.text = progressBar.fillAmount.ToString();
     }
 
+    public void ResetZoom()
+    {
+        GameObject.Find("Color_Object_Parent").GetComponent<PinchZoomScrollRect>()._currentZoom= 1;
+    }
+
 
     public void setDyKInfo()
     {
@@ -184,6 +189,7 @@ public class LevelManager : MonoBehaviour
 
     void Load_level(int level)
     {
+        ResetZoom();
         UpdateMatchPercentage(0);
         if (current_level > max_level)
         {
