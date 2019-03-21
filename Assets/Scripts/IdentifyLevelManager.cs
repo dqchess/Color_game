@@ -91,7 +91,7 @@ public class IdentifyLevelManager : MonoBehaviour {
             
             if (i == random_num_for_correct_button)
                 continue;
-            GameObject.Find("text" + i).GetComponent<Text>().text = GetCountryForLevel((level + (i * 5)) % 62);
+            GameObject.Find("text" + i).GetComponent<Text>().text = GetCountryForLevel((level + (i * 5)) % 147);
             Button btn = GameObject.Find("option" + i).GetComponent<Button>();
             btn.GetComponent<Image>().color = Color.white;
 
@@ -220,6 +220,94 @@ public class IdentifyLevelManager : MonoBehaviour {
             case 60: return "Turkey";
             case 61: return "Bulgaria";
             case 62: return "Palau";
+            case 63: return "Cuba";
+            case 64: return "Cyprus";
+            case 65: return "Djibouti";
+            case 66: return "East_Timor";
+            case 67: return "Eritrea";
+            case 68: return "Ethiopia";
+            case 69: return "Greece";
+            case 70: return "Guyana";
+            case 71: return "Hondurasa";
+            case 72: return "India";
+            case 73: return "Iran";
+            case 74: return "Iraq";
+            case 75: return "Israel";
+            case 76: return "Jamaica";
+            case 77: return "Jordan";
+            case 78: return "Kenya";
+            case 79: return "Kiribati";
+            case 80: return "Kosovo";
+            case 81: return "Kuwait";
+            case 82: return "Kyrgyzstan";
+            case 83: return "Laos";
+            case 84: return "Latvia";
+            case 85: return "Liberia";
+            case 86: return "Libya";
+            case 87: return "Liechtenstein";
+            case 88: return "Macedonia";
+            case 89: return "Malaysia";
+            case 90: return "Maldives";
+            case 91: return "Malta";
+            case 92: return "Marshall";
+            case 93: return "Mauritania";
+            case 94: return "Mexico";
+            case 95: return "Micronesia";
+            case 96: return "Moldova";
+            case 97: return "Mongolia";
+            case 98: return "Montenegro";
+            case 99: return "Morocco";
+            case 100: return "Myanmar";
+            case 101: return "Namibia";
+            case 102: return "Nauru";
+            case 103: return "Nepal";
+            case 104: return "New_Zealand";
+            case 105: return "Niue";
+
+            case 106: return "North_Korea";
+            case 107: return "Norway";
+            case 108: return "Oman";
+            case 109: return "Panama";
+            case 110: return "Papua_New_Guinea";
+            case 111: return "Philippines";
+            case 112: return "Rwanda";
+            case 113: return "Saint_Kitts_And_Nevis";
+            case 114: return "Saint_Lucia";
+            case 115: return "Saint_Vincent_And_The_Grenadines";
+            case 116: return "Samoa";
+            case 117: return "Sao_Tome_And_Principe";
+            case 118: return "Senegal";
+            case 119: return "Seychelles";
+            case 120: return "Singapore";
+            case 121: return "Slovakia";
+            case 122: return "Slovenia";
+            case 123: return "Solomon_Islands";
+            case 124: return "South_Africa";
+            case 125: return "South_Korea";
+            case 126: return "South_Sudan";
+            case 127: return "Sri_Lanka";
+            case 128: return "Suriname";
+            case 129: return "Switzerland";
+            case 130: return "Syria";
+            case 131: return "Taiwan";
+            case 132: return "Tajikistan";
+            case 133: return "Tanzania";
+            case 134: return "Togo";
+            case 135: return "Tonga";
+            case 136: return "Trinidad_And_Tobago";
+            case 137: return "Tunisia";
+            case 138: return "Tuvalu";
+            case 139: return "Uganda";
+            case 140: return "Uae";
+            case 141: return "United_Kingdom";
+            case 142: return "Usa";
+            case 143: return "Uzbekistan";
+            case 144: return "Venezuela";
+            case 145: return "Vietnam";
+            case 146: return "Zambia";
+            case 147: return "Zimbabwe";
+
+
 
 
         }
