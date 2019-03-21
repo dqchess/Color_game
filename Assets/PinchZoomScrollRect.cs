@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PinchZoomScrollRect : ScrollRect
 {
-    [SerializeField] float _minZoom = 0.9f;
+     float _minZoom = 1f;
     [SerializeField] float _maxZoom = 3f;
     [SerializeField] float _zoomLerpSpeed = 4f;
     public float _currentZoom = 1;
@@ -46,6 +46,12 @@ public class PinchZoomScrollRect : ScrollRect
         {
             _currentZoom *= 1 + scrollWheelInput * _mouseWheelSensitivity;
             _currentZoom = Mathf.Clamp(_currentZoom, _minZoom, _maxZoom);
+            if (_currentZoom < _minZoom)
+            {
+                _currentZoom = _minZoom;
+            }
+            Debug.Log("Zoom clamp to:" + _minZoom);
+            Debug.Log("Zoom after clamping:" + _currentZoom);
             _startPinchScreenPosition = (Vector2)Input.mousePosition;
             RectTransformUtility.ScreenPointToLocalPointInRectangle(content, _startPinchScreenPosition, null, out _startPinchCenterPosition);
             Vector2 pivotPosition = new Vector3(content.pivot.x * content.rect.size.x, content.pivot.y * content.rect.size.y);
@@ -54,8 +60,11 @@ public class PinchZoomScrollRect : ScrollRect
         }
         //pc input end
 
-        if (Mathf.Abs(content.localScale.x - _currentZoom) > 0.001f)
+        if (Mathf.Abs(content.localScale.x - _currentZoom) > 0.001f) { 
+            //Debug.Log(content.localScale);
+            Debug.Log(_currentZoom);
             content.localScale = Vector3.Lerp(content.localScale, Vector3.one * _currentZoom, _zoomLerpSpeed * Time.deltaTime);
+        }
     }
 
     protected override void SetContentAnchoredPosition(Vector2 position)
