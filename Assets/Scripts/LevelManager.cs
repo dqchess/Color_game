@@ -87,8 +87,8 @@ public class LevelManager : MonoBehaviour
     private int GetLevelToLoad()
     {
          
-        int level = 12;
-        return level;
+        int level = 1;
+        //return level;
         if (mode == "BEGINNER")
             level = PlayerPrefs.GetInt("LastBeginnerLevelCracked");
         if (mode == "CHALLENGE")

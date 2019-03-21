@@ -118,7 +118,7 @@ public class IdentifyLevelManager : MonoBehaviour {
         }
         if (btn_name == "Next")
         {
-            if(current_level == 62)
+            if(current_level == 147)
             {
                 popup.SetActive(true);
                 finalscore.GetComponent<Text>().text = score.ToString();

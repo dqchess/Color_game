@@ -142,6 +142,16 @@ public class InitMap : MonoBehaviour {
             min_matching_percentage = 10; //Liberia
         }
         else
+        if (levelmgr.GetCurrentLevel() == 138)
+        {
+            min_matching_percentage = 10; //Tuvalu
+        }
+        else
+        if (levelmgr.GetCurrentLevel() == 142)
+        {
+            min_matching_percentage = 15; //Tuvalu
+        }
+        else
             min_matching_percentage = 8;
     }
     public  bool AreImagesMatching(Texture2D current_texture)
