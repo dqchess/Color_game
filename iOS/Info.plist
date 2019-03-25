@@ -18,9 +18,9 @@
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.7</string>
+    <string>0.8</string>
     <key>CFBundleVersion</key>
-    <string>7</string>
+    <string>8</string>
     <key>CrashlyticsUnityVersion</key>
     <string>1.3.0</string>
     <key>Fabric</key>
@@ -31,30 +31,6 @@
       <string>Automatic</string>
       <key>Kits</key>
       <array>
-        <dict>
-          <key>KitInfo</key>
-          <dict />
-          <key>KitName</key>
-          <string>Crashlytics</string>
-        </dict>
-        <dict>
-          <key>KitInfo</key>
-          <dict />
-          <key>KitName</key>
-          <string>Crashlytics</string>
-        </dict>
-        <dict>
-          <key>KitInfo</key>
-          <dict />
-          <key>KitName</key>
-          <string>Crashlytics</string>
-        </dict>
-        <dict>
-          <key>KitInfo</key>
-          <dict />
-          <key>KitName</key>
-          <string>Crashlytics</string>
-        </dict>
         <dict>
           <key>KitInfo</key>
           <dict />
